@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KKM Kepuh — Kabar Kerja Mahasiswa Kelurahan Kepuh</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="logo.png" type="image/png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<main>
+  <section class="hero-section wrap" id="hero-slot"></section>
+
+  <section class="highlight-strip wrap">
+    <div class="highlight-card reveal">
+      <div class="highlight-inner">
+        <div class="highlight-item">
+          <div class="highlight-num">1</div>
+          <div class="highlight-label">Kelurahan Dampingan</div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-num">15</div>
+          <div class="highlight-label">Anggota Kelompok 15</div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-num">12</div>
+          <div class="highlight-label">Program Kerja Berjalan</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="kicker">Rubrik Pilihan</div>
+        <h2 class="section-title">Kabar Kelurahan Kepuh</h2>
+      </div>
+      <a href="kategori.html?kategori=kabar-desa" class="section-link">Semua Berita</a>
+    </div>
+    <div class="card-grid" id="grid-kabar-desa"></div>
+  </section>
+
+  <section class="section wrap content-grid">
+    <div>
+      <div class="section-head reveal">
+        <div>
+          <div class="kicker">Dokumentasi</div>
+          <h2 class="section-title">Sorotan Program Kerja</h2>
+        </div>
+        <a href="kategori.html?kategori=ekonomi-umkm" class="section-link">Lihat Arsip</a>
+      </div>
+      <div id="list-sorotan"></div>
+    </div>
+
+    <aside>
+      <div class="sidebar-box reveal">
+        <div class="kicker">Topik Pilihan</div>
+        <div id="tag-list" style="margin-top:16px;"></div>
+      </div>
+      <div class="cta-box reveal">
+        <h3>Punya Kegiatan KKM?</h3>
+        <p>Kirim laporan, foto, atau dokumentasi kelompokmu untuk ditayangkan di KKM Warta.</p>
+        <a href="kirim.html" class="cta-btn">Kirim Laporan →</a>
+      </div>
+    </aside>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="data.js"></script>
+<script src="common.js"></script>
+<script>
+  // ---- Hero (featured article) ----
+  const featured = ARTICLES.find(a => a.featured) || ARTICLES[0];
+  const popular = getPopularArticles(4);
+  document.getElementById('hero-slot').innerHTML = `
+    <div class="hero-grid">
+      <div class="hero-main reveal">
+        <a class="hero-img-wrap" href="artikel.html?id=${featured.id}">
+          <span class="hero-tag">Laporan Utama</span>
+          <img class="hero-img" src="${featured.image}" alt="${featured.title}">
+        </a>
+        <a href="artikel.html?id=${featured.id}"><h1 class="hero-headline">${featured.title}</h1></a>
+        <p class="hero-excerpt">${featured.excerpt}</p>
+        <div class="hero-meta">
+          <span>${featured.group} · ${featured.village}</span>
+          <span>${featured.date}</span>
+          <span>${featured.readTime}</span>
+        </div>
+      </div>
+      <aside class="reveal">
+        <div class="kicker side-list-title">Terpopuler Minggu Ini</div>
+        <div class="side-list">
+          ${popular.map((a,i) => `
+            <a class="side-item" href="artikel.html?id=${a.id}">
+              <div class="side-num">0${i+1}</div>
+              <div class="side-content">
+                <h4>${a.title}</h4>
+                <span>${categoryLabel(a.category)} · ${a.date}</span>
+              </div>
+            </a>
+          `).join('')}
+        </div>
+      </aside>
+    </div>
+  `;
+
+  // ---- Kabar Desa grid ----
+  const kabarDesa = getArticlesByCategory('kabar-desa').concat(
+    getArticlesByCategory('lingkungan')
+  ).slice(0, 3);
+  document.getElementById('grid-kabar-desa').innerHTML = kabarDesa.map(cardHtml).join('');
+
+  // ---- Sorotan list (ekonomi, kesehatan, sosial, kabar-desa mix) ----
+  const sorotanIds = ['kebun-hidroponik-panen','posyandu-aplikasi','sosialisasi-judi-online','plang-penunjuk-posko-kepuh'];
+  const sorotan = sorotanIds.map(id => getArticleById(id)).filter(Boolean);
+  document.getElementById('list-sorotan').innerHTML = sorotan.map(listArticleHtml).join('');
+
+  // ---- Tag list ----
+  document.getElementById('tag-list').innerHTML = CATEGORIES.map(c =>
+    `<a class="tag-pill" href="kategori.html?kategori=${c.slug}">${c.label}</a>`
+  ).join('');
+
+  initSite('index', null);
+</script>
+</body>
+</html>

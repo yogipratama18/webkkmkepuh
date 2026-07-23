@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cari Artikel — KKM Warta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="logo.png" type="image/png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<main class="wrap">
+  <div class="breadcrumb">
+    <a href="index.html">Beranda</a><span class="sep">/</span><span class="current">Cari</span>
+  </div>
+
+  <div class="page-hero">
+    <div class="kicker">Pencarian</div>
+    <h1 id="search-heading">Hasil Pencarian</h1>
+    <p id="search-desc">Masukkan kata kunci di kolom pencarian pada header.</p>
+  </div>
+
+  <section class="section" style="padding-top:8px;">
+    <div class="card-grid" id="search-grid"></div>
+    <div class="empty-state" id="empty-state" style="display:none;">
+      <h3>Tidak Ditemukan</h3>
+      <p>Coba gunakan kata kunci lain, misalnya nama desa, kategori, atau topik kegiatan.</p>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="data.js"></script>
+<script src="common.js"></script>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const q = params.get('q') || '';
+
+  if(q){
+    document.getElementById('search-heading').textContent = `Hasil untuk "${q}"`;
+    const results = searchArticles(q);
+    document.getElementById('search-desc').textContent = `Ditemukan ${results.length} artikel yang cocok dengan pencarianmu.`;
+    if(results.length){
+      document.getElementById('search-grid').innerHTML = results.map(cardHtml).join('');
+    } else {
+      document.getElementById('search-grid').style.display = 'none';
+      document.getElementById('empty-state').style.display = 'block';
+    }
+  } else {
+    document.getElementById('search-grid').style.display = 'none';
+    document.getElementById('empty-state').style.display = 'block';
+    document.getElementById('empty-state').innerHTML = '<h3>Mulai Pencarian</h3><p>Klik ikon kaca pembesar di pojok kanan atas untuk mencari artikel.</p>';
+  }
+
+  initSite('cari', null);
+</script>
+</body>
+</html>

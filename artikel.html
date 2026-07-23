@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="page-title">Artikel — KKM Warta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="logo.png" type="image/png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<main class="wrap" id="article-wrap">
+  <div class="breadcrumb">
+    <a href="index.html">Beranda</a><span class="sep">/</span>
+    <a href="kategori.html" id="crumb-cat">Kategori</a><span class="sep">/</span>
+    <span class="current">Artikel</span>
+  </div>
+
+  <article class="article-header" style="max-width:850px;">
+    <div class="kicker" id="art-kicker">Kategori</div>
+    <h1 class="article-title" id="art-title"></h1>
+    <p class="article-excerpt" id="art-excerpt"></p>
+    <div class="article-meta" id="art-meta"></div>
+  </article>
+
+  <img class="article-hero-img" id="art-image" src="" alt="">
+
+  <div class="article-body" id="art-body"></div>
+
+  <div class="article-tags" id="art-tags"></div>
+
+  <div class="article-share">
+    <span>Bagikan:</span>
+    <a class="tag-pill" href="https://wa.me/?text=" id="share-wa" target="_blank" rel="noopener">WhatsApp</a>
+    <a class="tag-pill" href="#" id="share-copy">Salin Tautan</a>
+  </div>
+
+  <section class="section related-grid">
+    <div class="section-head reveal">
+      <div>
+        <div class="kicker">Baca Juga</div>
+        <h2 class="section-title">Artikel Terkait</h2>
+      </div>
+    </div>
+    <div class="card-grid" id="related-grid"></div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="data.js"></script>
+<script src="common.js"></script>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
+  const article = getArticleById(id);
+
+  if(!article){
+    document.getElementById('article-wrap').innerHTML = `
+      <div class="empty-state">
+        <h3>Artikel Tidak Ditemukan</h3>
+        <p>Artikel yang kamu cari mungkin sudah dipindahkan atau tautannya salah.</p>
+        <a href="index.html" class="cta-btn" style="margin-top:18px; display:inline-block;">Kembali ke Beranda</a>
+      </div>
+    `;
+  } else {
+    document.title = `${article.title} — KKM Warta`;
+    document.getElementById('page-title').textContent = document.title;
+
+    const crumbCat = document.getElementById('crumb-cat');
+    crumbCat.href = `kategori.html?kategori=${article.category}`;
+    crumbCat.textContent = categoryLabel(article.category);
+
+    const kicker = document.getElementById('art-kicker');
+    kicker.innerHTML = `<a href="kategori.html?kategori=${article.category}" style="color:inherit;">${categoryLabel(article.category)}</a>`;
+
+    document.getElementById('art-title').textContent = article.title;
+    document.getElementById('art-excerpt').textContent = article.excerpt;
+    document.getElementById('art-meta').innerHTML = `
+      <span>${article.group} · ${article.village}</span>
+      <span>${article.date}</span>
+      <span>${article.readTime}</span>
+    `;
+    const img = document.getElementById('art-image');
+    img.src = article.image;
+    img.alt = article.title;
+
+    document.getElementById('art-body').innerHTML = article.content.map(p => `<p>${p}</p>`).join('');
+
+    document.getElementById('art-tags').innerHTML = `
+      <a class="tag-pill" href="kategori.html?kategori=${article.category}">${categoryLabel(article.category)}</a>
+      <a class="tag-pill" href="kategori.html?kategori=${article.category}">${article.village}</a>
+    `;
+
+    document.getElementById('share-wa').href = `https://wa.me/?text=${encodeURIComponent(article.title + ' — ' + window.location.href)}`;
+    document.getElementById('share-copy').addEventListener('click', (e) => {
+      e.preventDefault();
+      navigator.clipboard.writeText(window.location.href).then(() => {
+        e.target.textContent = 'Tautan Disalin!';
+        setTimeout(() => { e.target.textContent = 'Salin Tautan'; }, 1800);
+      });
+    });
+
+    const related = getRelatedArticles(article, 3);
+    document.getElementById('related-grid').innerHTML = related.length
+      ? related.map(cardHtml).join('')
+      : '<p style="color:var(--ink-soft);">Belum ada artikel terkait lainnya.</p>';
+  }
+
+  initSite('artikel', article ? article.category : null);
+</script>
+</body>
+</html>

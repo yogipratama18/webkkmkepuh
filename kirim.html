@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kirim Laporan — KKM Warta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="logo.png" type="image/png">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .setup-notice{
+    background:var(--cream-soft); border:1.5px dashed var(--gold); border-radius:18px;
+    padding:28px 30px; margin-bottom:28px;
+  }
+  .setup-notice h3{font-family:var(--display); font-size:19px; color:var(--forest-deep); margin-bottom:10px;}
+  .setup-notice p{color:var(--ink-soft); font-size:14px; line-height:1.7; margin-bottom:10px;}
+  .setup-notice code{background:var(--card); padding:2px 8px; border-radius:6px; font-size:13px;}
+  .form-embed-wrap{
+    border-radius:20px; overflow:hidden; box-shadow:var(--shadow-sm); background:var(--card);
+  }
+  .form-embed-wrap iframe{width:100%; min-height:900px; border:none; display:block;}
+</style>
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<main class="wrap">
+  <div class="breadcrumb">
+    <a href="index.html">Beranda</a><span class="sep">/</span><span class="current">Kirim Laporan</span>
+  </div>
+
+  <div class="page-hero">
+    <div class="kicker">Kontribusi</div>
+    <h1>Kirim Laporan Kegiatan</h1>
+    <p>Isi formulir berikut untuk mengirimkan liputan kegiatan kamu. Laporan akan otomatis masuk ke sistem dan ditinjau sebelum tayang di halaman <a href="laporan-warga.html" style="color:var(--forest); text-decoration:underline;">Laporan Warga</a>.</p>
+  </div>
+
+  <section class="section" style="padding-top:0;">
+    <div id="notice-slot"></div>
+    <div id="form-slot"></div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="data.js"></script>
+<script src="config.js"></script>
+<script src="common.js"></script>
+<script>
+  const noticeSlot = document.getElementById('notice-slot');
+  const formSlot = document.getElementById('form-slot');
+
+  if(!GOOGLE_FORM_EMBED_URL){
+    noticeSlot.innerHTML = `
+      <div class="setup-notice">
+        <h3>⚙ Belum Diatur (Khusus Admin)</h3>
+        <p>Form pengiriman laporan belum tersambung. Buka <code>config.js</code> dan isi nilai <code>GOOGLE_FORM_EMBED_URL</code> dengan tautan embed Google Form kamu.</p>
+        <p>Langkah lengkapnya ada di file <code>PANDUAN-LAPORAN-OTOMATIS.md</code> yang ada satu folder dengan situs ini.</p>
+      </div>
+    `;
+    formSlot.innerHTML = `
+      <div class="empty-state">
+        <h3>Formulir Belum Aktif</h3>
+        <p>Silakan hubungi admin situs untuk mengaktifkan formulir pengiriman laporan.</p>
+      </div>
+    `;
+  } else {
+    formSlot.innerHTML = `
+      <div class="form-embed-wrap reveal">
+        <iframe src="${GOOGLE_FORM_EMBED_URL}">Memuat formulir…</iframe>
+      </div>
+    `;
+  }
+
+  initSite('kirim', null);
+</script>
+</body>
+</html>

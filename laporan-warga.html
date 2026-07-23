@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laporan Warga — KKM Warta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="logo.png" type="image/png">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .loading-spin{
+    display:inline-block; width:22px; height:22px; border:3px solid var(--line);
+    border-top-color:var(--forest); border-radius:50%; animation:spin 0.8s linear infinite;
+  }
+  @keyframes spin{ to{ transform:rotate(360deg); } }
+  .loading-row{display:flex; align-items:center; gap:12px; color:var(--ink-soft); font-family:var(--label); font-size:13.5px; padding:40px 0;}
+  .setup-notice{
+    background:var(--cream-soft); border:1.5px dashed var(--gold); border-radius:18px;
+    padding:28px 30px; margin-bottom:28px;
+  }
+  .setup-notice h3{font-family:var(--display); font-size:19px; color:var(--forest-deep); margin-bottom:10px;}
+  .setup-notice p{color:var(--ink-soft); font-size:14px; line-height:1.7; margin-bottom:10px;}
+  .setup-notice code{background:var(--card); padding:2px 8px; border-radius:6px; font-size:13px;}
+  .warga-card{
+    background:var(--card); border-radius:18px; padding:24px; margin-bottom:18px;
+    box-shadow:var(--shadow-sm);
+  }
+  .warga-card h3{font-family:var(--display); font-size:19px; font-weight:600; color:var(--forest-deep); margin-top:8px;}
+  .warga-card p{font-size:14px; color:var(--ink-soft); margin-top:10px; line-height:1.7;}
+  .warga-meta{font-family:var(--label); font-size:11px; color:var(--ink-soft); text-transform:uppercase; letter-spacing:.05em; margin-top:14px; display:flex; gap:14px; flex-wrap:wrap;}
+</style>
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<main class="wrap">
+  <div class="breadcrumb">
+    <a href="index.html">Beranda</a><span class="sep">/</span><span class="current">Laporan Warga</span>
+  </div>
+
+  <div class="page-hero">
+    <div class="kicker">Update Langsung</div>
+    <h1>Laporan Warga</h1>
+    <p>Kegiatan singkat yang dikirim lewat formulir dan sudah ditinjau oleh admin. Halaman ini otomatis memperbarui diri — tidak perlu unggah ulang situs.</p>
+  </div>
+
+  <section class="section" style="padding-top:0;">
+    <div id="notice-slot"></div>
+    <div id="content-slot"></div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="data.js"></script>
+<script src="config.js"></script>
+<script src="common.js"></script>
+<script>
+  const noticeSlot = document.getElementById('notice-slot');
+  const contentSlot = document.getElementById('content-slot');
+
+  function escapeHtml(str){
+    const div = document.createElement('div');
+    div.textContent = str || '';
+    return div.innerHTML;
+  }
+
+  function findKey(row, candidates){
+    const keys = Object.keys(row);
+    for(const c of candidates){
+      const match = keys.find(k => k.toLowerCase().trim() === c.toLowerCase());
+      if(match) return row[match];
+    }
+    // fallback: partial match
+    for(const c of candidates){
+      const match = keys.find(k => k.toLowerCase().includes(c.toLowerCase()));
+      if(match) return row[match];
+    }
+    return '';
+  }
+
+  async function loadLaporan(){
+    if(!LAPORAN_SHEET_ID){
+      noticeSlot.innerHTML = `
+        <div class="setup-notice">
+          <h3>⚙ Belum Diatur (Khusus Admin)</h3>
+          <p>Sumber data laporan warga belum tersambung. Buka <code>config.js</code> dan isi nilai <code>LAPORAN_SHEET_ID</code> dengan ID Google Sheet kamu.</p>
+          <p>Langkah lengkapnya ada di file <code>PANDUAN-LAPORAN-OTOMATIS.md</code> yang ada satu folder dengan situs ini.</p>
+        </div>
+      `;
+      contentSlot.innerHTML = `<div class="empty-state"><h3>Belum Ada Data</h3><p>Fitur ini akan aktif setelah admin menyambungkan Google Sheet.</p></div>`;
+      return;
+    }
+
+    contentSlot.innerHTML = `<div class="loading-row"><span class="loading-spin"></span> Memuat laporan terbaru...</div>`;
+
+    try{
+      const url = `https://opensheet.elk.sh/${LAPORAN_SHEET_ID}/${encodeURIComponent(LAPORAN_SHEET_TAB)}`;
+      const res = await fetch(url);
+      if(!res.ok) throw new Error('Gagal mengambil data (' + res.status + ')');
+      const rows = await res.json();
+
+      const published = rows.filter(r => {
+        const status = findKey(r, ['status']);
+        return status && status.toString().toLowerCase().trim() === 'tayang';
+      });
+
+      if(!published.length){
+        contentSlot.innerHTML = `
+          <div class="empty-state">
+            <h3>Belum Ada Laporan Tayang</h3>
+            <p>Laporan yang masuk sedang ditinjau admin. Cek lagi beberapa saat lagi ya.</p>
+          </div>
+        `;
+        return;
+      }
+
+      contentSlot.innerHTML = published.reverse().map(r => {
+        const nama = findKey(r, ['nama pelapor', 'nama']);
+        const kelompok = findKey(r, ['kelompok']);
+        const lingkungan = findKey(r, ['lingkungan', 'desa', 'dusun']);
+        const kategori = findKey(r, ['kategori']);
+        const judul = findKey(r, ['judul laporan', 'judul']);
+        const isi = findKey(r, ['ringkasan kegiatan', 'isi', 'ringkasan']);
+        const waktu = findKey(r, ['timestamp', 'waktu']);
+        return `
+          <article class="warga-card reveal">
+            <span class="card-tag">${escapeHtml(kategori || 'Kabar Warga')}</span>
+            <h3>${escapeHtml(judul || '(tanpa judul)')}</h3>
+            <p>${escapeHtml(isi)}</p>
+            <div class="warga-meta">
+              <span>${escapeHtml(nama)}${kelompok ? ' · ' + escapeHtml(kelompok) : ''}</span>
+              <span>${escapeHtml(lingkungan)}</span>
+              <span>${escapeHtml(waktu)}</span>
+            </div>
+          </article>
+        `;
+      }).join('');
+
+      initReveal();
+    } catch(err){
+      contentSlot.innerHTML = `
+        <div class="empty-state">
+          <h3>Gagal Memuat Laporan</h3>
+          <p>Pastikan Google Sheet sudah dibagikan sebagai "Anyone with the link". Detail teknis: ${escapeHtml(err.message)}</p>
+        </div>
+      `;
+    }
+  }
+
+  loadLaporan();
+  initSite('laporan-warga', null);
+</script>
+</body>
+</html>

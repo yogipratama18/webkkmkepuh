@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unggah Artikel dari Word — KKM Warta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="logo.png" type="image/png">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .upload-box{
+    border:2px dashed var(--line); border-radius:20px; padding:40px 28px; text-align:center;
+    background:var(--card); transition:.2s; cursor:pointer;
+  }
+  .upload-box.drag{border-color:var(--gold); background:var(--cream-soft);}
+  .upload-box input{display:none;}
+  .upload-icon{font-size:36px; margin-bottom:10px;}
+  .step-num{
+    width:28px; height:28px; border-radius:50%; background:var(--forest); color:var(--cream);
+    display:inline-flex; align-items:center; justify-content:center; font-family:var(--label);
+    font-size:13px; font-weight:700; flex:0 0 auto;
+  }
+  .step-row{display:flex; gap:14px; margin-bottom:18px; align-items:flex-start;}
+  .step-row p{color:var(--ink-soft); font-size:14.5px; line-height:1.7; margin-top:2px;}
+  .step-row strong{color:var(--forest-deep);}
+  .preview-item{
+    background:var(--card); border-radius:14px; padding:16px 18px; margin-bottom:12px;
+    box-shadow:var(--shadow-sm); display:flex; justify-content:space-between; align-items:center; gap:14px;
+  }
+  .preview-item.error{box-shadow:0 0 0 1.5px #B4472A;}
+  .preview-item h4{font-family:var(--display); font-size:15.5px; color:var(--forest-deep); font-weight:600;}
+  .preview-item .meta{font-family:var(--label); font-size:11px; color:var(--ink-soft); margin-top:4px; text-transform:uppercase; letter-spacing:.05em;}
+  .preview-item .err-msg{color:#B4472A; font-size:12.5px; margin-top:6px; font-family:var(--label);}
+  .badge-ok{background:var(--gold-soft); color:var(--forest-deep); font-family:var(--label); font-size:11px; font-weight:700; padding:5px 10px; border-radius:20px; white-space:nowrap;}
+  .badge-err{background:#B4472A; color:#fff; font-family:var(--label); font-size:11px; font-weight:700; padding:5px 10px; border-radius:20px; white-space:nowrap;}
+  code.tpl{background:var(--cream-soft); padding:2px 7px; border-radius:6px; font-size:13px;}
+  pre.tpl-block{
+    background:var(--forest-deep); color:#E7EFE6; padding:20px 22px; border-radius:14px;
+    font-size:12.5px; line-height:1.8; overflow-x:auto; font-family:'JetBrains Mono', monospace;
+  }
+</style>
+</head>
+<body>
+
+<div id="site-header"></div>
+
+<main class="wrap">
+  <div class="breadcrumb">
+    <a href="index.html">Beranda</a><span class="sep">/</span><span class="current">Unggah Artikel</span>
+  </div>
+
+  <div class="page-hero">
+    <div class="kicker">Khusus Admin</div>
+    <h1>Unggah Banyak Artikel dari Word</h1>
+    <p>Tulis semua berita di satu file Word mengikuti format di bawah, lalu unggah di sini. Sistem akan otomatis membuatkan file <code class="tpl">data.js</code> baru yang tinggal kamu ganti di folder situs.</p>
+  </div>
+
+  <section class="section" style="padding-top:0; display:grid; grid-template-columns:1fr; gap:36px; max-width:900px;">
+
+    <div class="sidebar-box">
+      <div class="kicker">Cara Pakai</div>
+      <div style="margin-top:18px;">
+        <div class="step-row">
+          <div class="step-num">1</div>
+          <p><strong>Unduh template Word</strong> di bawah, lalu isi dengan berita kamu. Boleh satu file berisi banyak artikel sekaligus — pisahkan tiap artikel dengan baris <code class="tpl">===</code>.</p>
+        </div>
+        <div class="step-row">
+          <div class="step-num">2</div>
+          <p>Simpan file Word tersebut (<code class="tpl">.docx</code>), lalu <strong>unggah di kotak bawah</strong> ini.</p>
+        </div>
+        <div class="step-row">
+          <div class="step-num">3</div>
+          <p>Periksa hasil pratinjau — pastikan tidak ada tanda merah. Kalau semua sudah benar, klik <strong>Unduh data.js</strong>.</p>
+        </div>
+        <div class="step-row">
+          <div class="step-num">4</div>
+          <p>Ganti file <code class="tpl">data.js</code> lama di folder situs kamu dengan file yang baru diunduh, lalu upload ulang ke GitHub seperti biasa.</p>
+        </div>
+      </div>
+      <a href="#" id="download-template" class="cta-btn" style="margin-top:8px; display:inline-block;">⬇ Unduh Template Word</a>
+    </div>
+
+    <div class="sidebar-box">
+      <div class="kicker">Format Tiap Artikel</div>
+      <p style="margin:14px 0; color:var(--ink-soft); font-size:14px;">Ketik persis seperti ini di Word, satu baris satu label. Bagian yang bertanda <strong>wajib</strong> harus diisi.</p>
+      <pre class="tpl-block">JUDUL: Kerja Bakti Bersihkan Saluran Drainase Lingkungan Karet   (wajib)
+KATEGORI: Lingkungan                                              (wajib, lihat daftar di bawah)
+LINGKUNGAN: Lingkungan Karet                                      (wajib)
+TANGGAL: 20 Jul 2026                                              (wajib)
+WAKTU BACA: 5 menit baca                                          (opsional)
+FOTO: images/kerja-bakti.jpg                                      (opsional)
+UTAMA: ya                                                         (opsional, jadi headline beranda)
+ISI:
+Paragraf pertama isi berita di sini.
+
+Paragraf kedua, lanjutan cerita.
+
+Paragraf ketiga, hasil atau dampaknya.
+===</pre>
+      <p style="margin-top:14px; color:var(--ink-soft); font-size:13.5px;">Kategori yang valid (ketik salah satu, huruf besar/kecil bebas): <strong>Kabar Desa, Pendidikan, Ekonomi &amp; UMKM, Lingkungan, Kesehatan, Sosial</strong></p>
+    </div>
+
+    <div>
+      <div class="kicker" style="margin-bottom:14px;">Unggah File Word</div>
+      <label class="upload-box" id="upload-box">
+        <input type="file" id="file-input" accept=".docx">
+        <div class="upload-icon">📄</div>
+        <div style="font-family:var(--label); font-weight:600; color:var(--forest-deep);">Klik atau seret file .docx ke sini</div>
+        <div style="font-family:var(--label); font-size:12px; color:var(--ink-soft); margin-top:6px;">Hanya menerima file Word (.docx)</div>
+      </label>
+      <div id="file-name" style="margin-top:10px; font-family:var(--label); font-size:13px; color:var(--ink-soft);"></div>
+    </div>
+
+    <div id="preview-section" style="display:none;">
+      <div class="section-head" style="margin-bottom:20px;">
+        <div>
+          <div class="kicker">Pratinjau</div>
+          <h2 class="section-title" style="font-size:22px;" id="preview-heading">Artikel Terdeteksi</h2>
+        </div>
+      </div>
+      <div id="preview-list"></div>
+      <button class="cta-btn" id="download-btn" style="margin-top:10px;" disabled>⬇ Unduh data.js</button>
+      <p id="download-note" style="margin-top:12px; font-size:13px; color:var(--ink-soft);"></p>
+    </div>
+
+  </section>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="data.js"></script>
+<script src="common.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+<script>
+  initSite('admin', null);
+
+  // ---------- Template Word download (generated on the fly as a simple .docx-compatible rich text) ----------
+  document.getElementById('download-template').addEventListener('click', function(e){
+    e.preventDefault();
+    window.location.href = 'template-artikel.docx';
+  });
+
+  // ---------- Category label -> slug lookup ----------
+  function resolveCategorySlug(input){
+    const norm = input.trim().toLowerCase();
+    const found = CATEGORIES.find(c => c.slug === norm || c.label.toLowerCase() === norm);
+    return found ? found.slug : null;
+  }
+
+  function slugify(str){
+    return str.toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9\s-]/g, '')
+      .trim().replace(/\s+/g, '-').replace(/-+/g, '-');
+  }
+
+  function parseDocument(text){
+    const blocks = text.split(/\n\s*===\s*\n?/).map(b => b.trim()).filter(Boolean);
+    const articleBlocks = blocks.filter(b => /^JUDUL:/im.test(b));
+    return articleBlocks.map((block, i) => {
+      const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
+      const data = { errors: [] };
+      let contentStart = -1;
+
+      lines.forEach((line, idx) => {
+        if(/^JUDUL:/i.test(line)) data.title = line.replace(/^JUDUL:/i, '').trim();
+        else if(/^KATEGORI:/i.test(line)) data.categoryRaw = line.replace(/^KATEGORI:/i, '').trim();
+        else if(/^LINGKUNGAN:/i.test(line)) data.village = line.replace(/^LINGKUNGAN:/i, '').trim();
+        else if(/^TANGGAL:/i.test(line)) data.date = line.replace(/^TANGGAL:/i, '').trim();
+        else if(/^WAKTU BACA:/i.test(line)) data.readTime = line.replace(/^WAKTU BACA:/i, '').trim();
+        else if(/^FOTO:/i.test(line)) data.image = line.replace(/^FOTO:/i, '').trim();
+        else if(/^UTAMA:/i.test(line)) data.featured = /ya|yes|true/i.test(line);
+        else if(/^ISI:/i.test(line)) contentStart = idx + 1;
+      });
+
+      data.content = contentStart >= 0 ? lines.slice(contentStart) : [];
+      data.excerpt = data.content[0] ? (data.content[0].length > 170 ? data.content[0].slice(0, 167) + '...' : data.content[0]) : '';
+      data.group = 'Kelompok 15';
+      data.readTime = data.readTime || '5 menit baca';
+      data.image = data.image || 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1200&auto=format&fit=crop';
+
+      if(!data.title) data.errors.push('Judul tidak ditemukan (baris "JUDUL:" wajib ada)');
+      else data.id = slugify(data.title) + (i > 0 ? '' : '');
+
+      if(!data.categoryRaw) data.errors.push('Kategori tidak ditemukan');
+      else {
+        const slug = resolveCategorySlug(data.categoryRaw);
+        if(!slug) data.errors.push(`Kategori "${data.categoryRaw}" tidak dikenali`);
+        else data.category = slug;
+      }
+
+      if(!data.village) data.errors.push('Nama lingkungan tidak ditemukan');
+      if(!data.date) data.errors.push('Tanggal tidak ditemukan');
+      if(!data.content.length) data.errors.push('Isi berita kosong (baris "ISI:" wajib diikuti paragraf)');
+
+      return data;
+    });
+  }
+
+  let parsedArticles = [];
+
+  function renderPreview(articles){
+    const list = document.getElementById('preview-list');
+    const heading = document.getElementById('preview-heading');
+    const downloadBtn = document.getElementById('download-btn');
+    heading.textContent = `${articles.length} Artikel Terdeteksi`;
+
+    list.innerHTML = articles.map(a => {
+      const hasError = a.errors.length > 0;
+      return `
+        <div class="preview-item ${hasError ? 'error' : ''}">
+          <div>
+            <h4>${a.title || '(judul kosong)'}</h4>
+            <div class="meta">${a.categoryRaw || '-'} · ${a.village || '-'} · ${a.date || '-'}</div>
+            ${hasError ? `<div class="err-msg">⚠ ${a.errors.join(' · ')}</div>` : ''}
+          </div>
+          <span class="${hasError ? 'badge-err' : 'badge-ok'}">${hasError ? 'Perlu Dicek' : 'Siap'}</span>
+        </div>
+      `;
+    }).join('');
+
+    const allOk = articles.length > 0 && articles.every(a => a.errors.length === 0);
+    downloadBtn.disabled = !allOk;
+    document.getElementById('download-note').textContent = allOk
+      ? 'Semua artikel valid. Klik tombol di atas untuk mengunduh data.js.'
+      : 'Perbaiki dulu artikel yang bertanda "Perlu Dicek" di file Word kamu, lalu unggah ulang.';
+  }
+
+  document.getElementById('file-input').addEventListener('change', function(e){
+    const file = e.target.files[0];
+    if(!file) return;
+    document.getElementById('file-name').textContent = `File dipilih: ${file.name}`;
+    const reader = new FileReader();
+    reader.onload = function(ev){
+      mammoth.extractRawText({ arrayBuffer: ev.target.result }).then(function(result){
+        parsedArticles = parseDocument(result.value);
+        document.getElementById('preview-section').style.display = 'block';
+        renderPreview(parsedArticles);
+      }).catch(function(err){
+        alert('Gagal membaca file Word. Pastikan formatnya .docx dan ikuti template. Detail: ' + err.message);
+      });
+    };
+    reader.readAsArrayBuffer(file);
+  });
+
+  // drag & drop support
+  const box = document.getElementById('upload-box');
+  ['dragenter','dragover'].forEach(evt => box.addEventListener(evt, e => { e.preventDefault(); box.classList.add('drag'); }));
+  ['dragleave','drop'].forEach(evt => box.addEventListener(evt, e => { e.preventDefault(); box.classList.remove('drag'); }));
+  box.addEventListener('drop', e => {
+    const file = e.dataTransfer.files[0];
+    if(file){
+      document.getElementById('file-input').files = e.dataTransfer.files;
+      document.getElementById('file-input').dispatchEvent(new Event('change'));
+    }
+  });
+
+  document.getElementById('download-btn').addEventListener('click', function(){
+    const newArticles = parsedArticles.map(a => ({
+      id: a.id,
+      title: a.title,
+      excerpt: a.excerpt,
+      category: a.category,
+      image: a.image,
+      group: a.group,
+      village: a.village,
+      date: a.date,
+      readTime: a.readTime,
+      ...(a.featured ? { featured: true } : {}),
+      content: a.content,
+    }));
+
+    const combined = newArticles.concat(ARTICLES);
+
+    const fileContent = `/* ============ KKM Warta — shared article data ============ */
+/* File ini dihasilkan otomatis dari unggahan Word. Jangan lupa cek ulang isi sebelum upload ke situs. */
+
+const CATEGORIES = ${JSON.stringify(CATEGORIES, null, 2)};
+
+function categoryLabel(slug){
+  const c = CATEGORIES.find(c => c.slug === slug);
+  return c ? c.label : slug;
+}
+
+const ARTICLES = ${JSON.stringify(combined, null, 2)};
+
+function getArticleById(id){
+  return ARTICLES.find(a => a.id === id) || null;
+}
+
+function getArticlesByCategory(slug){
+  return ARTICLES.filter(a => a.category === slug);
+}
+
+function getRelatedArticles(article, max){
+  return ARTICLES.filter(a => a.category === article.category && a.id !== article.id).slice(0, max || 3);
+}
+
+function getPopularArticles(max){
+  return ARTICLES.filter(a => a.popular).sort((a,b) => a.popular - b.popular).slice(0, max || 4);
+}
+
+function searchArticles(query){
+  const q = query.trim().toLowerCase();
+  if(!q) return [];
+  return ARTICLES.filter(a =>
+    a.title.toLowerCase().includes(q) ||
+    a.excerpt.toLowerCase().includes(q) ||
+    categoryLabel(a.category).toLowerCase().includes(q) ||
+    a.village.toLowerCase().includes(q)
+  );
+}
+`;
+
+    const blob = new Blob([fileContent], { type: 'text/javascript' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'data.js';
+    a.click();
+    URL.revokeObjectURL(url);
+  });
+</script>
+</body>
+</html>
