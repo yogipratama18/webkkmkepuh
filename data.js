@@ -92,38 +92,41 @@ Kehadiran dalam acara adat dan keagamaan seperti aqiqah dinilai penting sebagai 
     ],
   },
   {
-    id: 'posyandu-digital-realtime',
-    title: 'Posyandu Digital: Data Tumbuh Kembang Balita Kini Terekam Real Time',
+    id: 'Peresmian-pembangunan-jembatan-beton-di-lingkungan-cikandet-jintung',
+    title: 'Peresmian Pembangunan Jembatan Beton di Lingkungan Cikandet Jantung',
     excerpt: 'Aplikasi pencatatan sederhana bikinan mahasiswa membantu kader posyandu memantau status gizi balita tanpa lagi mengandalkan buku tulis.',
-    category: 'kesehatan',
-    image: 'images/olahragakkm.jpg.jpeg',
+    category: 'lingkungan',
+    image: 'images/kkm5.jpg',
     group: 'Kelompok 15',
-    village: 'Kelurahan Kepuh',
-    date: '11 Jul 2026',
+    village: 'Cikandet Jintung',
+    date: '14 Jul 2026',
     readTime: '6 menit baca',
     popular: 5,
     content: [
-      'Pencatatan berat dan tinggi badan balita di Posyandu Kelurahan Kepuh selama ini dilakukan manual di buku tulis, membuat kader kesulitan memantau tren pertumbuhan tiap anak dari bulan ke bulan. Mahasiswa KKM jurusan Informatika membuatkan aplikasi pencatatan sederhana berbasis web yang bisa diakses dari ponsel kader.',
-      'Setiap data yang dimasukkan langsung terekam dan divisualisasikan sebagai grafik pertumbuhan per anak, memudahkan kader mengenali balita yang butuh perhatian gizi lebih.',
-      'Uji coba selama sebulan menunjukkan waktu pencatatan yang tadinya bisa tiga jam kini rampung dalam dua puluh menit, sehingga kader punya lebih banyak waktu untuk edukasi langsung ke orang tua.',
-      'Puskesmas kecamatan turut memantau perkembangan sistem ini dengan rencana mereplikasinya ke posyandu-posyandu lain di wilayah kerja mereka.',
+      `Warga Lingkungan Cikandet Jantung, Kelurahan Kepuh, Kecamatan Ciwandan, menggelar acara peresmian pembangunan jembatan beton pada Senin, 14 Juli 2026. Pembangunan jembatan ini merupakan salah satu proyek infrastruktur yang telah lama dinantikan warga guna mempermudah akses transportasi antarwilayah di lingkungan tersebut, terutama pada musim hujan ketika jalur lama kerap sulit dilalui.
+Mahasiswa Kuliah Kerja Mahasiswa (KKM) Kelompok 15 Universitas Bina Bangsa turut diundang dan hadir dalam acara peresmian tersebut sebagai bagian dari upaya membangun kedekatan dengan warga di lingkungan penempatan. Kehadiran mahasiswa dalam acara-acara pembangunan seperti ini juga menjadi kesempatan untuk memahami langsung kondisi infrastruktur dan kebutuhan masyarakat di Lingkungan Cikandet Jantung.
+Jembatan beton yang diresmikan diharapkan dapat meningkatkan konektivitas antarwilayah, mempermudah aktivitas ekonomi warga, serta menunjang mobilitas anak-anak sekolah dan kegiatan sehari-hari lainnya. Pembangunan ini merupakan hasil kolaborasi antara pemerintah kelurahan, tokoh masyarakat, dan swadaya warga setempat.
+Peresmian jembatan turut diisi dengan sesi dokumentasi dan sambutan singkat dari tokoh masyarakat setempat. Kehadiran mahasiswa KKM dalam momen ini menjadi bentuk dukungan moral terhadap upaya pembangunan yang dilakukan masyarakat secara mandiri, sekaligus memperkuat hubungan silaturahmi antara mahasiswa dan warga Lingkungan Cikandet Jantung sejak awal masa pengabdian.
+`,
     ],
   },
   {
-    id: 'kerja-bakti-irigasi',
-    title: 'Kerja Bakti Bersihkan 2 KM Saluran Irigasi, Sawah Tak Lagi Kekeringan',
+    id: 'Rapat-persiapan-peringatan-hut-ri-ke-81-dan-turnamen-bola-voli-di-kelurahan-kepuh',
+    title: 'Rapat Persiapan Peringatan HUT RI ke-81 dan Turnamen Bola Voli di Kelurahan Kepuh',
     excerpt: 'Kolaborasi mahasiswa dan kelompok tani berhasil mengembalikan aliran air ke 40 hektare sawah yang sempat mangkrak.',
-    category: 'lingkungan',
-    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1200&auto=format&fit=crop',
+    category: 'kabar-desa',
+    image: 'images/kkm6.jpg',
     group: 'Kelompok 15',
     village: 'Kelurahan Kepuh',
     date: '16 Jul 2026',
     readTime: '4 menit baca',
     content: [
-      'Saluran irigasi sepanjang dua kilometer yang menjadi urat nadi sawah di Kelurahan Kepuh sempat tersumbat sedimen dan tumbuhan liar selama bertahun-tahun, membuat sekitar 40 hektare sawah kekurangan pasokan air terutama di musim kemarau.',
-      'Mahasiswa KKM Kelompok 15 mengajak kelompok tani setempat menggelar kerja bakti selama tiga akhir pekan berturut-turut untuk membersihkan saluran dari hulu ke hilir.',
-      'Begitu aliran air kembali lancar, petani langsung merasakan dampaknya pada jadwal tanam yang sebelumnya sering molor karena menunggu giliran air.',
-      'Kelompok tani berencana membentuk jadwal ronda kebersihan saluran rutin agar kondisi ini tidak kembali seperti semula setelah mahasiswa menyelesaikan masa KKM.',
+      `Pemerintah Kelurahan Kepuh bersama tokoh masyarakat, panitia pelaksana, dan berbagai unsur terkait menggelar rapat persiapan kegiatan rutin tahunan dalam rangka memperingati Hari Ulang Tahun (HUT) Kemerdekaan Republik Indonesia ke-81 pada Senin, 14 Juli 2026. Mahasiswa Kuliah Kerja Mahasiswa (KKM) Kelompok 15 Universitas Bina Bangsa turut diundang untuk mengikuti rapat tersebut sebagai bagian dari koordinasi kegiatan kemasyarakatan di wilayah penempatan.
+Salah satu agenda utama yang dibahas dalam rapat adalah rencana penyelenggaraan turnamen bola voli sebagai kegiatan unggulan dalam rangkaian peringatan HUT RI. Turnamen ini direncanakan diikuti oleh sekitar 40 tim dari berbagai lingkungan, dengan total kebutuhan anggaran diperkirakan mencapai Rp65.000.000. Sumber pendanaan diharapkan berasal dari kontribusi sekitar 30 perusahaan lokal yang beroperasi di sekitar wilayah Kelurahan Kepuh.
+Dalam rapat juga terungkap adanya kendala pendanaan yang dihadapi panitia. Dijelaskan bahwa sejak masa pandemi COVID-19 hingga saat ini, dukungan dari sektor industri terhadap kegiatan kemasyarakatan mengalami penurunan signifikan, sehingga diperlukan upaya bersama dan strategi penggalangan dana yang lebih kreatif agar kebutuhan anggaran kegiatan dapat terpenuhi tanpa membebani masyarakat.
+Panitia menyampaikan bahwa proposal kegiatan akan direvisi dan disempurnakan sebelum diajukan kepada calon sponsor. Pertandingan bola voli dijadwalkan mulai berlangsung pada Rabu, 15 Juli 2026, setelah waktu Zuhur, sementara acara puncak dan seremoni penutupan akan dilaksanakan pada akhir rangkaian kegiatan peringatan HUT RI.
+Selain membahas turnamen, rapat juga menyinggung rencana jangka panjang mengenai pembinaan olahraga bola voli di Kelurahan Kepuh melalui pembentukan kelompok pembinaan bagi atlet senior. Diharapkan turnamen ini tidak hanya menjadi ajang olahraga dan mempererat tali silaturahmi antarwarga, tetapi juga memberikan dampak ekonomi positif bagi pelaku Usaha Mikro, Kecil, dan Menengah (UMKM) yang berjualan di sekitar lokasi pertandingan.
+`,
     ],
   },
   {
