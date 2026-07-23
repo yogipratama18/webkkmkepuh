@@ -38,6 +38,7 @@ Usai upacara pelepasan, mahasiswa dari setiap kelompok, termasuk Kelompok 15, me
   {
     id: 'Penerimaan-mahasiswa-kkm-pemerintah-ciwandan',
     title: 'Penerimaan Mahasiswa KKM oleh Pemerintah Kecamatan Ciwandan',
+    excerpt: 'Pemerintah Kecamatan Ciwandan menggelar acara penerimaan mahasiswa Kuliah Kerja Mahasiswa (KKM) Universitas Bina Bangsa Tahun 2026 di Kantor Kecamatan Ciwandan pada Minggu, 13 Juli 2026. Acara ini diikuti oleh puluhan mahasiswa dari berbagai kelompok KKM yang akan ditempatkan di sejumlah kelurahan di wilayah Kecamatan Ciwandan, termasuk Kelompok 15 yang akan bertugas di Kelurahan Kepuh.',
     category: 'kabar-desa',
     image: 'images/kkm1.jpeg',
     group: 'Kelompok 15',
@@ -56,6 +57,7 @@ Acara penerimaan ditutup dengan sesi dokumentasi bersama antara mahasiswa KKM, D
   {
     id: 'penerimaan-dan-presentasi-program-kerja-kkm-kelompok-15',
     title: 'Penerimaan dan Presentasi Program Kerja KKM Kelompok 15 di Kelurahan Kepuh',
+    excerpt: 'Kelompok 15 Universitas Bina Bangsa menghadiri acara penerimaan resmi di Kelurahan Kepuh, Kecamatan Ciwandan, untuk mempresentasikan program kerja mereka.',
     image: 'images/kkm3.jpg',
     group: 'Kelompok 15',
     village: 'Kelurahan Kepuh',
