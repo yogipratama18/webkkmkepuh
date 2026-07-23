@@ -118,7 +118,7 @@ Peresmian jembatan turut diisi dengan sesi dokumentasi dan sambutan singkat dari
     image: 'images/kkm6.jpg',
     group: 'Kelompok 15',
     village: 'Kelurahan Kepuh',
-    date: '16 Jul 2026',
+    date: '14 Jul 2026',
     readTime: '4 menit baca',
     content: [
       `Pemerintah Kelurahan Kepuh bersama tokoh masyarakat, panitia pelaksana, dan berbagai unsur terkait menggelar rapat persiapan kegiatan rutin tahunan dalam rangka memperingati Hari Ulang Tahun (HUT) Kemerdekaan Republik Indonesia ke-81 pada Senin, 14 Juli 2026. Mahasiswa Kuliah Kerja Mahasiswa (KKM) Kelompok 15 Universitas Bina Bangsa turut diundang untuk mengikuti rapat tersebut sebagai bagian dari koordinasi kegiatan kemasyarakatan di wilayah penempatan.
@@ -130,37 +130,39 @@ Selain membahas turnamen, rapat juga menyinggung rencana jangka panjang mengenai
     ],
   },
   {
-    id: 'taman-baca-krajan',
-    title: 'Taman Baca Lingkungan Karet Kini Punya 300 Judul Buku dari Donasi',
-    excerpt: 'Sumbangan dari alumni dan warga kota membuat rak baca yang tadinya kosong kini penuh, kunjungan anak naik tiap sore.',
+    id: 'Program-kerja-kkm-kelompok-15',
+    title: 'Evaluasi dan Persiapan Pelaksanaan Program Kerja KKM Kelompok 15',
+    excerpt: 'Evaluasi program kerja KKM Kelompok 15 dan persiapan pelaksanaan kegiatan di wilayah penempatan.',
     category: 'pendidikan',
-    image: 'https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=1200&auto=format&fit=crop',
+    image: 'images/kkm7.jpg',
     group: 'Kelompok 15',
-    village: 'Lingkungan Karet',
+    village: 'Posko KKM Lingkungan Karet',
     date: '15 Jul 2026',
     readTime: '4 menit baca',
     content: [
-      'Rak baca di pojok balai Lingkungan Karet yang dulunya nyaris kosong kini berisi lebih dari 300 judul buku, mulai dari cerita bergambar hingga ensiklopedia anak. Semua berkat donasi yang digalang mahasiswa KKM lewat media sosial.',
-      'Ajakan donasi buku yang awalnya ditujukan untuk kalangan alumni kampus ternyata juga disambut warga kota yang tidak memiliki hubungan langsung dengan program KKM ini.',
-      'Sejak taman baca diramaikan koleksi baru, jumlah kunjungan anak-anak sore hari meningkat signifikan, bahkan beberapa orang tua ikut duduk membaca sambil menunggu anaknya.',
-      'Pengurus karang taruna lingkungan akan melanjutkan pengelolaan taman baca ini dengan jadwal buka rutin tiga kali sepekan setelah mahasiswa menyelesaikan program.',
+      `Seluruh anggota Kuliah Kerja Mahasiswa (KKM) Kelompok 15 Universitas Bina Bangsa menggelar rapat internal di Posko KKM, Kelurahan Kepuh, pada Selasa, 15 Juli 2026, mulai pukul 15.00 WIB. Rapat ini digelar untuk mengevaluasi hasil observasi lapangan yang telah dilakukan sejak hari-hari awal penempatan, sekaligus membahas perkembangan persiapan program kerja dari masing-masing divisi.
+Dalam forum tersebut, setiap divisi memaparkan rencana kegiatan yang akan dilaksanakan selama masa KKM beserta usulan waktu pelaksanaannya. Penjadwalan disusun secara cermat agar tidak berbenturan dengan agenda resmi kelurahan maupun kegiatan-kegiatan masyarakat yang sudah berjalan, seperti kegiatan keagamaan, sosial, dan olahraga di lingkungan sekitar.
+Rapat turut mengevaluasi kesiapan teknis dari setiap program kerja, meliputi kebutuhan perlengkapan, kelengkapan administrasi, hingga koordinasi dengan instansi atau pihak eksternal yang akan diajak bekerja sama dalam pelaksanaan kegiatan, seperti sekolah, Posyandu, dan pelaku UMKM setempat. Selain itu, dibahas pula pembagian anggota yang akan mewakili kelompok dalam berbagai undangan kegiatan dari pihak Kelurahan Kepuh.
+Sebagai hasil akhir rapat, disepakati jadwal sementara pelaksanaan setiap program kerja, dan setiap divisi diminta untuk segera menyelesaikan persiapan teknis masing-masing agar kegiatan dapat berjalan sesuai rencana. Ketua kelompok turut mengingatkan seluruh anggota untuk senantiasa menjaga kekompakan, kedisiplinan, komunikasi, serta tanggung jawab dalam menjalankan setiap program kerja selama masa pengabdian di Kelurahan Kepuh.
+`,
     ],
   },
   {
-    id: 'pelatihan-kemasan-keripik',
-    title: 'Pelatihan Kemasan Bikin Keripik Singkong Warga Kepuh Tembus Pasar Kota',
+    id: 'Partisipasi-kkm-kelompok-15-turnamen-bola-voli',
+    title: 'Partisipasi KKM Kelompok 15 dalam Turnamen Bola Voli HUT RI ke-81',
     excerpt: 'Desain label baru dan sertifikasi PIRT jadi kunci, penjualan mingguan pelaku usaha naik hingga 60 persen.',
-    category: 'ekonomi-umkm',
-    image: 'https://images.unsplash.com/photo-1595246140625-573b715d11dc?q=80&w=1200&auto=format&fit=crop',
+    category: 'sosial',
+    image: 'images/kkm8.jpg',
     group: 'Kelompok 15',
     village: 'Kelurahan Kepuh',
-    date: '14 Jul 2026',
+    date: '16 Jul 2026',
     readTime: '5 menit baca',
     content: [
-      'Keripik singkong buatan salah satu ibu rumah tangga di Kelurahan Kepuh sebenarnya sudah punya rasa yang digemari tetangga sekitar, namun kemasannya masih menggunakan plastik bening polos tanpa label. Mahasiswa KKM Kelompok 15 membantu mendesain ulang kemasan sekaligus mendampingi pengurusan izin PIRT.',
-      'Label baru dibuat dengan identitas visual yang konsisten, mencantumkan komposisi, tanggal produksi, dan nomor izin edar agar layak dipajang di rak toko oleh-oleh kota.',
-      'Setelah kemasan baru dan izin resmi didapat, pelaku usaha mulai dipercaya menitipkan produknya di sejumlah toko oleh-oleh, mendorong kenaikan penjualan mingguan hingga 60 persen dibanding sebelumnya.',
-      'Mahasiswa kini menyusun panduan desain kemasan sederhana agar pelaku UMKM lain di kelurahan bisa meniru langkah serupa secara mandiri.',
+      `Kuliah Kerja Mahasiswa (KKM) Kelompok 15 Universitas Bina Bangsa menerima undangan resmi dari pihak Kelurahan Kepuh untuk berpartisipasi dalam kegiatan turnamen bola voli yang diselenggarakan sebagai rangkaian peringatan Hari Ulang Tahun Kemerdekaan Republik Indonesia ke-81. Undangan tersebut disampaikan pada sore hari Selasa, 15 Juli 2026, sebagai bentuk keterlibatan mahasiswa dalam agenda besar masyarakat di lingkungan penempatan.
+Turnamen bola voli ini merupakan salah satu kegiatan unggulan yang telah dipersiapkan panitia sejak beberapa hari sebelumnya, dengan target keikutsertaan sekitar 40 tim dari berbagai lingkungan di Kelurahan Kepuh. Keterlibatan mahasiswa KKM dalam kegiatan ini diharapkan dapat membantu kelancaran teknis penyelenggaraan, mulai dari dukungan tenaga hingga dokumentasi kegiatan.
+Seluruh anggota KKM Kelompok 15 turut hadir dan berpartisipasi aktif dalam kegiatan tersebut sebagai bentuk dukungan nyata terhadap agenda masyarakat sekaligus mempererat hubungan silaturahmi dengan perangkat kelurahan, panitia pelaksana, dan warga Kelurahan Kepuh secara luas.
+Kehadiran mahasiswa dalam turnamen ini menjadi salah satu wujud komitmen KKM Kelompok 15 untuk senantiasa terlibat aktif dalam berbagai agenda masyarakat selama masa pengabdian, sekaligus menunjukkan bahwa program KKM tidak hanya berfokus pada program kerja formal, tetapi juga pada partisipasi sosial dalam kehidupan bermasyarakat sehari-hari.
+`,
     ],
   },
   {
