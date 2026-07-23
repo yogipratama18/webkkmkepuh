@@ -20,7 +20,7 @@ const ARTICLES = [
     title: 'Pelepasan Mahasiswa KKM Universitas Bina Bangsa Tahun 2026',
     excerpt: 'Pelepasan Mahasiswa KKM Universitas Bina Bangsa Tahun 2026',
     category: 'kabar-desa',
-    image: 'images/kkm2.jpg',
+    image: 'images/kkm2.JPG',
     group: 'Kelompok 15',
     village: 'Universitas Bina Bangsa',
     date: '13 Jul 2026',
