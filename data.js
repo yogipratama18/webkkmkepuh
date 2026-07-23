@@ -16,14 +16,14 @@ function categoryLabel(slug){
 
 const ARTICLES = [
   {
-    id: 'bank-sampah-sukamaju',
+    id: 'pelepasan-mahasiswa-kkm-2026',
     title: 'Pelepasan Mahasiswa KKM Universitas Bina Bangsa Tahun 2026',
     excerpt: 'Pelepasan Mahasiswa KKM Universitas Bina Bangsa Tahun 2026',
     category: 'kabar-desa',
-    image: 'images/kkm1.jpeg',
+    image: 'images/kkm2.jpg',
     group: 'Kelompok 15',
-    village: 'Kelurahan Kepuh',
-    date: '17 Jul 2026',
+    village: 'Universitas Bina Bangsa',
+    date: '13 Jul 2026',
     readTime: '8 menit baca',
     featured: true,
     popular: 1,
@@ -36,39 +36,38 @@ Usai upacara pelepasan, mahasiswa dari setiap kelompok, termasuk Kelompok 15, me
     ],
   },
   {
-    id: 'kelas-coding-lingkungan-karet',
-    title: 'Kelas Coding Dasar untuk Anak Lingkungan Karet Diminati, Kelas Dibuka Dua Kali Sehari',
-    excerpt: 'Awalnya hanya diikuti 12 anak, kini kelas coding sore di balai warga harus dibagi dua sesi karena peminat terus bertambah.',
-    category: 'pendidikan',
-    image: 'https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=1200&auto=format&fit=crop',
+    id: 'Penerimaan-mahasiswa-kkm-pemerintah-ciwandan',
+    title: 'Penerimaan Mahasiswa KKM oleh Pemerintah Kecamatan Ciwandan',
+    category: 'kabar-desa',
+    image: 'images/kkm1.jpeg',
     group: 'Kelompok 15',
-    village: 'Lingkungan Karet',
-    date: '14 Jul 2026',
+    village: 'Kecamatan Ciwandan',
+    date: '13 Jul 2026',
     readTime: '5 menit baca',
     popular: 2,
     content: [
-      'Balai Lingkungan Karet yang biasanya sepi di sore hari kini ramai oleh suara tawa anak-anak yang belajar logika pemrograman dasar lewat permainan blok visual. Kelas yang digagas mahasiswa KKM jurusan Informatika ini awalnya hanya diikuti 12 anak pada pekan pertama.',
-      'Memasuki minggu ketiga, jumlah peserta membengkak hingga harus dibagi menjadi dua sesi: pukul empat sore untuk anak sekolah dasar kelas bawah, dan pukul lima untuk kelas atas. Materi disusun sederhana, dari mengenal urutan perintah hingga membuat animasi sederhana.',
-      'Orang tua menyambut baik kegiatan ini karena memberi alternatif kegiatan positif selain bermain gawai tanpa arah. Beberapa bahkan meminta agar materi berlanjut dengan pengenalan mengetik sepuluh jari.',
-      'Mahasiswa berencana menyusun modul cetak sederhana agar kegiatan ini bisa dilanjutkan oleh karang taruna lingkungan setelah masa KKM berakhir.',
+      `Pemerintah Kecamatan Ciwandan menggelar acara penerimaan mahasiswa Kuliah Kerja Mahasiswa (KKM) Universitas Bina Bangsa Tahun 2026 di Kantor Kecamatan Ciwandan pada Minggu, 13 Juli 2026. Acara ini diikuti oleh puluhan mahasiswa dari berbagai kelompok KKM yang akan ditempatkan di sejumlah kelurahan di wilayah Kecamatan Ciwandan, termasuk Kelompok 15 yang akan bertugas di Kelurahan Kepuh.
+Dalam sambutannya, Camat Ciwandan menyampaikan apresiasi atas kehadiran mahasiswa KKM di wilayahnya dan berharap kehadiran mereka dapat memberikan kontribusi nyata bagi masyarakat, khususnya dalam bidang pendidikan, kesehatan, ekonomi, serta lingkungan hidup. Camat juga memberikan arahan mengenai karakteristik wilayah Kecamatan Ciwandan serta beberapa isu sosial yang perlu menjadi perhatian mahasiswa selama masa KKM, seperti potensi UMKM lokal dan kondisi infrastruktur di beberapa lingkungan.
+Selain arahan dari Camat, mahasiswa juga mendapatkan penjelasan mengenai mekanisme koordinasi antara pihak kecamatan, kelurahan, dan kelompok KKM selama masa pengabdian berlangsung. Mahasiswa diimbau untuk selalu melapor dan berkoordinasi dengan perangkat kecamatan maupun kelurahan apabila menemui kendala di lapangan, agar setiap permasalahan dapat segera ditindaklanjuti.
+Acara penerimaan ditutup dengan sesi dokumentasi bersama antara mahasiswa KKM, Dosen Pembimbing Lapangan, dan jajaran Pemerintah Kecamatan Ciwandan. Momen ini menjadi simbol dimulainya secara resmi pelaksanaan KKM Universitas Bina Bangsa Tahun 2026 di wilayah kecamatan tersebut, sekaligus menjadi awal dari rangkaian koordinasi yang akan terus berlangsung selama masa pengabdian.
+`
     ],
   },
   {
-    id: 'legalitas-umkm-marketplace',
-    title: 'Mahasiswa Bantu Legalitas 15 UMKM, Kini Bisa Jual Lewat Marketplace',
-    excerpt: 'Pendampingan pengurusan NIB dan sertifikasi halal membuka jalan bagi pelaku usaha kelurahan untuk naik kelas ke pasar digital.',
-    category: 'ekonomi-umkm',
-    image: 'https://images.unsplash.com/photo-1595246140625-573b715d11dc?q=80&w=1200&auto=format&fit=crop',
+    id: 'penerimaan-dan-presentasi-program-kerja-kkm-kelompok-15',
+    title: 'Penerimaan dan Presentasi Program Kerja KKM Kelompok 15 di Kelurahan Kepuh',
+    image: 'images/kkm3.jpg',
     group: 'Kelompok 15',
     village: 'Kelurahan Kepuh',
     date: '13 Jul 2026',
     readTime: '6 menit baca',
     popular: 3,
     content: [
-      'Selama ini banyak pelaku usaha rumahan di Kelurahan Kepuh enggan berjualan online karena belum memiliki izin usaha resmi. Mahasiswa KKM Kelompok 15 turun tangan mendampingi proses pengurusan Nomor Induk Berusaha secara daring lewat sistem OSS.',
-      'Total 15 pelaku UMKM berhasil didampingi hingga tuntas, mulai dari produsen keripik, kerupuk, hingga kerajinan anyaman bambu. Beberapa di antaranya sekaligus dibantu mengurus sertifikasi halal self-declare untuk produk makanan.',
-      'Setelah legalitas rampung, mahasiswa melanjutkan dengan pelatihan singkat membuat akun toko di marketplace, termasuk cara memotret produk dan menulis deskripsi yang menarik pembeli.',
-      'Salah satu pelaku usaha keripik singkong mengaku sudah menerima pesanan pertama dari luar kota hanya dalam minggu pertama toko online-nya aktif.',
+      `Kantor Kelurahan Kepuh, Kecamatan Ciwandan, menjadi tuan rumah acara penerimaan resmi mahasiswa Kuliah Kerja Mahasiswa (KKM) Kelompok 15 Universitas Bina Bangsa pada Minggu, 13 Juli 2026. Acara ini dihadiri oleh Lurah Kepuh beserta jajaran perangkat kelurahan, Dosen Pembimbing Lapangan (DPL), serta seluruh anggota Kelompok 15 yang akan menjalani masa pengabdian selama beberapa pekan ke depan di wilayah tersebut.
+Sebagai bagian dari acara penerimaan, Kelompok 15 berkesempatan mempresentasikan rancangan program kerja yang telah disusun sebelum masa penerjunan. Presentasi mencakup lima bidang utama, yaitu pendidikan, lingkungan hidup dan ketahanan pangan, kesehatan masyarakat, ekonomi dan UMKM, serta bidang sosial, budaya, dan hukum. Setiap perwakilan bidang menjelaskan tujuan kegiatan, sasaran program, manfaat yang diharapkan bagi warga, serta gambaran waktu pelaksanaan di masing-masing bidang tersebut.
+Pihak Kelurahan Kepuh menyambut baik program kerja yang dipaparkan dan memberikan sejumlah masukan agar pelaksanaannya lebih tepat sasaran. Lurah menekankan pentingnya penyesuaian program dengan kondisi riil masyarakat, misalnya potensi UMKM di sekitar Kampung Karet dan kebutuhan pendidikan anak-anak di lingkungan Combong. Masukan ini menjadi dasar bagi Kelompok 15 untuk menyempurnakan rencana kerja sebelum benar-benar dijalankan di lapangan.
+Sebagai penutup acara, dilakukan sesi dokumentasi bersama antara mahasiswa KKM, DPL, Lurah, dan perangkat Kelurahan Kepuh. Dokumentasi ini menjadi simbol sinergi dan komitmen bersama antara pihak kampus dan pemerintah kelurahan dalam menyukseskan pelaksanaan KKM Universitas Bina Bangsa Tahun 2026, sekaligus menjadi tanda resmi dimulainya masa kerja Kelompok 15 di Kelurahan Kepuh.
+`
     ],
   },
   {
