@@ -74,20 +74,20 @@ Sebagai penutup acara, dilakukan sesi dokumentasi bersama antara mahasiswa KKM, 
   },
   {
     id: 'sumur-resapan-tegalrejo',
-    title: 'Sumur Resapan Kolektif Redam Banjir Musiman di Lingkungan Karet',
-    excerpt: 'Delapan titik sumur resapan dibangun swadaya bersama warga untuk mengatasi genangan yang tiap musim hujan merendam jalan lingkungan.',
-    category: 'lingkungan',
-    image: 'https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=1200&auto=format&fit=crop',
+    title: 'Silaturahmi Mahasiswa KKM dalam Acara Aqiqah Warga Kampung Karet',
+    excerpt: 'Mahasiswa KKM Kelompok 15 menghadiri acara aqiqah warga Kampung Karet, sekaligus mempererat hubungan dengan masyarakat setempat.',
+    category: 'sosial',
+    image: 'images/kkm4.jfif',
     group: 'Kelompok 15',
-    village: 'Lingkungan Karet',
-    date: '12 Jul 2026',
+    village: 'Lingkungan Combong',
+    date: '14 Jul 2026',
     readTime: '5 menit baca',
     popular: 4,
     content: [
-      'Setiap musim hujan tiba, ruas jalan utama Lingkungan Karet hampir selalu tergenang akibat drainase yang tak lagi mampu menampung air larian dari lahan di sekitarnya. Mahasiswa KKM Kelompok 15 bersama warga membangun delapan titik sumur resapan di sepanjang jalur genangan.',
-      'Pembangunan dilakukan secara gotong royong selama dua pekan, memanfaatkan bahan lokal seperti batu kali dan pipa bekas yang disusun ulang. Setiap sumur resapan dirancang mampu menampung dan meresapkan air hingga ratusan liter sebelum meluap ke jalan.',
-      'Hasilnya mulai terlihat pada hujan deras pertama pasca pembangunan, genangan yang biasanya bertahan berjam-jam kini surut dalam waktu singkat.',
-      'Warga berencana menambah titik resapan di musim kemarau mendatang agar cakupan penanganan banjir musiman semakin luas.',
+      `Mahasiswa Kuliah Kerja Mahasiswa (KKM) Kelompok 15 Universitas Bina Bangsa menghadiri undangan acara aqiqah yang diselenggarakan oleh salah satu keluarga warga Kampung Karet, Kelurahan Kepuh, pada Senin, 14 Juli 2026. Kehadiran mahasiswa dalam acara ini merupakan bentuk partisipasi awal dalam kegiatan kemasyarakatan sejak resmi berada di lokasi KKM.
+Dalam acara tersebut, mahasiswa KKM turut membantu kelancaran jalannya kegiatan sesuai kebutuhan di lokasi, mulai dari membantu penataan tempat, menyambut tamu, hingga membantu proses dokumentasi acara. Selain itu, mahasiswa juga menyampaikan ucapan selamat secara langsung kepada keluarga yang memiliki hajat sebagai bentuk penghormatan terhadap tradisi dan momen penting yang sedang dirayakan warga.
+Kehadiran dalam acara adat dan keagamaan seperti aqiqah dinilai penting sebagai langkah awal membangun kedekatan emosional dengan masyarakat. Melalui interaksi langsung semacam ini, mahasiswa KKM Kelompok 15 dapat lebih mengenal karakter dan kebiasaan warga Kampung Karet, yang nantinya akan menjadi bekal berharga dalam merancang serta menjalankan program kerja yang lebih sesuai dengan kebutuhan masyarakat setempat.
+`,
     ],
   },
   {
