@@ -17,10 +17,10 @@ function categoryLabel(slug){
 const ARTICLES = [
   {
     id: 'bank-sampah-sukamaju',
-    title: 'Bank Sampah Rintisan Mahasiswa KKM Ubah Kebiasaan 3 Lingkungan di Kelurahan Kepuh',
-    excerpt: 'Program 45 hari itu kini ditiru dua kelurahan tetangga. Warga menukar sampah terpilah dengan tabungan, sementara omzet pengepul naik hampir dua kali lipat.',
+    title: 'Pelepasan Mahasiswa KKM Universitas Bina Bangsa Tahun 2026',
+    excerpt: 'Pelepasan Mahasiswa KKM Universitas Bina Bangsa Tahun 2026',
     category: 'kabar-desa',
-    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1200&auto=format&fit=crop',
+    image: 'images/kkm1.jpeg',
     group: 'Kelompok 15',
     village: 'Kelurahan Kepuh',
     date: '17 Jul 2026',
@@ -28,10 +28,11 @@ const ARTICLES = [
     featured: true,
     popular: 1,
     content: [
-      'Apa yang dimulai sebagai program kerja sampingan kini menjadi kebiasaan baru bagi warga tiga lingkungan di Kelurahan Kepuh. Bank sampah rintisan mahasiswa KKM Kelompok 15 mencatat lebih dari 600 kilogram sampah terpilah dalam enam pekan pertama beroperasi.',
-      'Sistemnya sederhana: warga menimbang sampah yang sudah dipilah di rumah, lalu nilainya dicatat sebagai tabungan yang bisa diambil sewaktu-waktu atau ditukar kebutuhan pokok saat lebaran. Ketua kelompok tani setempat menyebut kebiasaan memilah sampah kini mulai menular ke anak-anak yang diajak orang tuanya menimbang sampah sepulang sekolah.',
-      'Dampaknya juga terasa di rantai ekonomi warga. Pengepul sampah keliling yang biasanya hanya mengangkut sampah campur kini mendapat pasokan sampah terpilah dengan harga jual lebih tinggi, membuat omzet mingguan mereka naik hampir dua kali lipat.',
-      'Melihat hasil ini, dua kelurahan tetangga sudah mengirim perwakilan untuk belajar langsung sistem pencatatan dan skema tabungan yang dipakai. Mahasiswa KKM berencana menyusun panduan sederhana agar program ini bisa direplikasi tanpa pendampingan langsung.',
+      `Universitas Bina Bangsa resmi melepas seluruh mahasiswa peserta Kuliah Kerja Mahasiswa (KKM) Tahun 2026 dalam sebuah upacara yang digelar di kampus pada Minggu, 13 Juli 2026, mulai pukul 08.00 WIB. Acara ini menandai dimulainya masa pengabdian mahasiswa di puluhan titik lokasi yang tersebar di wilayah Kota Cilegon, termasuk Kelompok 15 yang akan mengabdi di Kelurahan Kepuh, Kecamatan Ciwandan.
+Pihak universitas, melalui perwakilan yang memimpin upacara pelepasan, menyampaikan pesan agar mahasiswa menjaga nama baik almamater selama berada di tengah masyarakat. Mahasiswa diminta untuk bersikap sopan, aktif berkomunikasi dengan perangkat desa maupun kelurahan, serta menjalankan program kerja yang telah dirancang dengan penuh tanggung jawab. Dosen Pembimbing Lapangan (DPL) dari masing-masing kelompok turut hadir mendampingi mahasiswa bimbingannya dalam acara tersebut.
+Selain menjadi momen seremonial, pelepasan ini juga berfungsi sebagai pengingat bahwa KKM merupakan wujud nyata dari salah satu pilar Tri Dharma Perguruan Tinggi, yaitu pengabdian kepada masyarakat. Mahasiswa diharapkan dapat menerapkan ilmu yang telah dipelajari di bangku kuliah untuk membantu menyelesaikan persoalan riil yang dihadapi masyarakat di lokasi penempatan masing-masing.
+Usai upacara pelepasan, mahasiswa dari setiap kelompok, termasuk Kelompok 15, mempersiapkan diri untuk menuju lokasi pengabdian masing-masing guna mengikuti rangkaian penerimaan resmi oleh pemerintah kecamatan dan kelurahan setempat sebagai langkah awal sebelum memulai program kerja.
+`
     ],
   },
   {
