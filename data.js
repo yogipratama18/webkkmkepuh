@@ -166,71 +166,94 @@ Kehadiran mahasiswa dalam turnamen ini menjadi salah satu wujud komitmen KKM Kel
     ],
   },
   {
-    id: 'kebun-hidroponik-panen',
-    title: 'Kebun Hidroponik Percontohan Siap Panen Perdana Pekan Depan',
-    excerpt: 'Ditanam di lahan kosong kantor kelurahan, hasil panen rencananya dijual lewat koperasi dan sebagian dibagikan ke posyandu.',
-    category: 'ekonomi-umkm',
-    image: 'https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=1200&auto=format&fit=crop',
-    group: 'Kelompok 15',
-    village: 'Kelurahan Kepuh',
-    date: '10 Jul 2026',
-    readTime: '4 menit baca',
-    content: [
-      'Lahan kosong di samping kantor kelurahan yang selama ini ditumbuhi rumput liar disulap mahasiswa KKM menjadi kebun hidroponik percontohan berisi sawi, pakcoy, dan kangkung.',
-      'Sistem yang digunakan sengaja dipilih sesederhana mungkin menggunakan pipa paralon dan botol bekas, agar mudah ditiru warga dengan modal terbatas.',
-      'Panen perdana yang dijadwalkan pekan depan rencananya sebagian dijual melalui koperasi kelurahan dan sebagian lagi dibagikan gratis ke posyandu untuk mendukung asupan gizi balita.',
-      'Kelompok tani muda kelurahan menyatakan tertarik mereplikasi sistem ini di pekarangan rumah masing-masing setelah melihat hasil panen perdana.',
-    ],
-  },
-  {
-    id: 'posyandu-aplikasi',
-    title: 'Pencatatan Posyandu Beralih ke Aplikasi, Kader Tak Lagi Tulis Manual',
-    excerpt: 'Aplikasi sederhana bikinan mahasiswa Informatika mempercepat rekap data dari 3 jam jadi 20 menit tiap posyandu.',
-    category: 'kesehatan',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?q=80&w=1200&auto=format&fit=crop',
-    group: 'Kelompok 15',
-    village: 'Kelurahan Kepuh',
-    date: '9 Jul 2026',
-    readTime: '4 menit baca',
-    content: [
-      'Kader posyandu di Kelurahan Kepuh kini tidak lagi menghabiskan waktu berjam-jam merekap catatan manual berat dan tinggi badan balita ke buku laporan bulanan.',
-      'Aplikasi pencatatan yang dibuat mahasiswa KKM jurusan Informatika memungkinkan data langsung tersimpan begitu ditimbang, lengkap dengan grafik status gizi otomatis.',
-      'Waktu rekap yang tadinya memakan hingga tiga jam kini bisa selesai dalam dua puluh menit, memberi kader lebih banyak waktu untuk mendampingi orang tua balita secara langsung.',
-      'Pemerintah kelurahan mempertimbangkan mengalokasikan anggaran pemeliharaan aplikasi ini agar tetap berjalan setelah masa KKM mahasiswa berakhir.',
-    ],
-  },
-  {
-    id: 'sosialisasi-judi-online',
-    title: 'Sosialisasi Anti Judi Online Diikuti 80 Warga, Ada Sesi Curhat Keluarga',
-    excerpt: 'Selain edukasi risiko finansial, kegiatan ini membuka ruang konsultasi bagi keluarga yang terdampak.',
+    id: 'sowan-dan-sosialisasi-program-kerja-kkm-ke-lingkungan-combong-walikukun-dan-kampung-karet',
+    title: 'Sowan dan Sosialisasi Program Kerja KKM ke Lingkungan Combong, Walikukun, dan Kampung Karet',
+    excerpt: 'Kegiatan sosialisasi di tiga lingkungan sekitar Kelurahan Kepuh.',
     category: 'sosial',
-    image: 'https://images.unsplash.com/photo-1591123720164-a4f9d4513c65?q=80&w=1200&auto=format&fit=crop',
+    image: 'images/kkm9.jpg',
     group: 'Kelompok 15',
-    village: 'Kelurahan Kepuh',
-    date: '8 Jul 2026',
+    village: 'Combong, Walikukun, Kampung Karet',
+    date: '16 Jul 2026',
+    readTime: '10 menit baca',
+    content: [
+      `Kuliah Kerja Mahasiswa (KKM) Kelompok 15 Universitas Bina Bangsa melaksanakan kegiatan sowan atau silaturahmi ke tiga lingkungan sekaligus, yaitu Lingkungan Combong, Walikukun, dan Kampung Karet di Kelurahan Kepuh, pada Rabu malam, 16 Juli 2026, mulai pukul 20.00 WIB. Kegiatan ini dilakukan sebagai bentuk perkenalan resmi mahasiswa kepada Ketua RT, tokoh masyarakat, tokoh pemuda, dan tokoh pemudi di masing-masing lingkungan.
+Dalam kunjungan tersebut, mahasiswa menyampaikan maksud dan tujuan pelaksanaan KKM Kelompok 15 di Kelurahan Kepuh, sekaligus memaparkan garis besar rencana program kerja yang telah disusun. Penyampaian ini bertujuan agar masyarakat memahami arah kegiatan mahasiswa selama masa pengabdian dan diharapkan dapat memberikan dukungan penuh terhadap pelaksanaannya.
+Diskusi mendalam turut dilakukan bersama tokoh masyarakat di Lingkungan Combong mengenai penyesuaian program kerja dengan kebutuhan dan kondisi riil warga setempat. Sejumlah masukan konkret disampaikan, di antaranya usulan dari perwakilan pemuda agar program kerja bidang pendidikan berupa kegiatan literasi anak dilaksanakan tiga kali dalam seminggu, menyesuaikan jadwal belajar anak-anak agar kegiatan dapat berjalan lebih efektif.
+Selain bidang pendidikan, perwakilan pemuda dan pemudi juga memberikan usulan kepada bidang UMKM untuk mengadakan pelatihan pembuatan kerajinan berupa piring dari lidi daun kelapa, sebagai salah satu program yang dinilai memiliki nilai ekonomi sekaligus memanfaatkan potensi lokal yang melimpah di wilayah tersebut. Untuk pelaksanaan program pendidikan, koordinasi dengan pihak sekolah di Lingkungan Combong akan dilakukan melalui Ibu Wiwin, seorang guru setempat yang bersedia menjadi penghubung antara mahasiswa KKM dan pihak sekolah.
+Sebagai penutup kegiatan sowan, tokoh masyarakat menyampaikan pesan penting agar setiap permasalahan yang mungkin timbul selama pelaksanaan KKM diselesaikan terlebih dahulu secara musyawarah di tingkat kelompok dan lingkungan. Apabila permasalahan belum dapat diselesaikan di tingkat tersebut, barulah dikoordinasikan lebih lanjut dengan pihak Kelurahan Kepuh. Pertemuan ditutup dengan harapan agar seluruh program kerja KKM Kelompok 15 dapat terlaksana dengan baik melalui kerja sama yang erat antara mahasiswa dan masyarakat.
+`,
+    ],
+  },
+  {
+    id: 'gotong-royong-membersihkan-tiga-masjid-di-kelurahan-kepuh',
+    title: 'Gotong Royong Membersihkan Tiga Masjid di Kelurahan Kepuh',
+    excerpt: 'Mahasiswa KKM Kelompok 15 turut serta dalam gotong royong membersihkan tiga masjid di Kelurahan Kepuh.',
+    category: 'lingkungan',
+    image: 'images/kkm10.jpg',
+    group: 'Kelompok 15',
+    village: 'Kampung Karet',
+    date: '17 Jul 2026',
+    readTime: '4 menit baca',
+    content: [
+       `Seluruh anggota Kuliah Kerja Mahasiswa (KKM) Kelompok 15 Universitas Bina Bangsa mengikuti kegiatan gotong royong membersihkan tiga masjid yang tersebar di wilayah Kelurahan Kepuh, Kecamatan Ciwandan, pada Kamis, 17 Juli 2026, mulai pukul 09.00 WIB. Kegiatan ini digelar bersama warga setempat sebagai bentuk kepedulian terhadap kebersihan dan kenyamanan tempat ibadah di lingkungan Kampung Karet dan sekitarnya.
+Rangkaian kegiatan meliputi penyapuan lantai, pengepelan, pembersihan kaca jendela, mimbar, rak Al-Qur'an, serta area tempat wudu di setiap masjid yang dikunjungi. Selain bagian dalam masjid, halaman dan lingkungan sekitar juga dibersihkan dari sampah, daun kering, serta rumput liar yang mulai tumbuh tidak beraturan, sehingga suasana masjid menjadi lebih rapi dan nyaman digunakan untuk beribadah.
+Anggota KKM bersama warga setempat membagi tugas secara merata agar seluruh area dapat dibersihkan secara menyeluruh dan pekerjaan dapat selesai tepat waktu. Pembagian kerja ini mencerminkan semangat kolaborasi antara mahasiswa dan masyarakat dalam menjaga fasilitas umum yang menjadi pusat kegiatan keagamaan warga.
+Kegiatan gotong royong ini mendapat sambutan positif dari pengurus Dewan Kemakmuran Masjid (DKM) serta masyarakat sekitar, karena dinilai membantu meringankan beban perawatan rutin masjid. Melalui kegiatan ini, hubungan antara mahasiswa KKM dan warga Kelurahan Kepuh semakin erat, sekaligus diharapkan dapat menumbuhkan kesadaran masyarakat untuk terus menjaga kebersihan tempat ibadah secara berkelanjutan di masa mendatang.
+`,
+    ],
+  },
+  {
+    id: 'senam-pagi-bersama-masyarakat',
+    title: 'Senam Pagi Bersama Masyarakat di Lapangan Voli Kampung Karet',
+    excerpt: 'Mahasiswa KKM Kelompok 15 mengadakan kegiatan senam pagi bersama masyarakat di lapangan voli Kampung Karet.',
+    category: 'Kesehatan',
+    image: 'images/kkm11.jpg',
+    group: 'Kelompok 15',
+    village: 'Kampung Karet',
+    date: '18 Jul 2026',
     readTime: '5 menit baca',
     content: [
-      'Kantor kelurahan dipadati sekitar 80 warga yang hadir dalam sosialisasi bahaya judi online yang digelar mahasiswa KKM Kelompok 15 bekerja sama dengan perangkat kelurahan.',
-      'Materi yang disampaikan tidak hanya seputar risiko finansial, tetapi juga cara mengenali tanda-tanda kecanduan pada anggota keluarga dan langkah awal yang bisa diambil.',
-      'Di luar dugaan panitia, sesi tanya jawab berkembang menjadi ruang curhat bagi beberapa warga yang keluarganya terdampak langsung, sehingga panitia membuka sesi konsultasi tambahan secara tertutup.',
-      'Perangkat kelurahan berencana menjadikan kegiatan semacam ini sebagai agenda rutin bekerja sama dengan puskesmas untuk pendampingan psikologis lanjutan.',
+      `Kuliah Kerja Mahasiswa (KKM) Kelompok 15 Universitas Bina Bangsa menggelar kegiatan senam pagi bersama masyarakat di Lapangan Voli Kampung Karet, Kelurahan Kepuh, pada Jumat, 18 Juli 2026, mulai pukul 07.00 WIB. Kegiatan ini merupakan salah satu program kerja bidang kesehatan yang bertujuan meningkatkan pola hidup sehat warga sekaligus mempererat silaturahmi antara mahasiswa dan masyarakat setempat.
+Rangkaian kegiatan senam diawali dengan gerakan pemanasan untuk mempersiapkan tubuh peserta, dilanjutkan dengan senam inti yang diikuti oleh masyarakat, mulai dari anak-anak, remaja, hingga ibu-ibu rumah tangga, dengan antusiasme yang tinggi. Kegiatan kemudian ditutup dengan gerakan pendinginan (cooling down) agar kondisi tubuh peserta kembali normal setelah beraktivitas fisik.
+Selepas senam, mahasiswa KKM bersama masyarakat melakukan sesi dokumentasi serta pembuatan konten sebagai bentuk publikasi kegiatan, baik untuk keperluan laporan KKM maupun untuk media sosial kelompok. Dokumentasi ini juga menjadi sarana untuk memperkenalkan program-program KKM Kelompok 15 kepada khalayak yang lebih luas.
+Sebagai penutup rangkaian kegiatan, dilaksanakan sesi makan buah bersama sebagai bentuk kampanye hidup sehat dan menjaga asupan gizi masyarakat. Kegiatan ini diharapkan dapat menjadi kebiasaan positif yang terus dilanjutkan oleh warga Kampung Karet secara mandiri, bahkan setelah masa KKM Kelompok 15 berakhir.
+`,
     ],
   },
   {
-    id: 'plang-penunjuk-posko-kepuh',
-    title: 'Plang Penunjuk Posko KKM 15 Terpasang di Akses JLS, Warga Kini Mudah Menemukan Lokasi',
-    excerpt: 'Bersama karang taruna, mahasiswa memasang papan penunjuk arah dari Jalan Lingkar Selatan menuju posko dan titik kegiatan di Lingkungan Karet.',
-    category: 'kabar-desa',
-    image: 'https://images.unsplash.com/photo-1509228468518-180dd4864904?q=80&w=1200&auto=format&fit=crop',
+    id: 'Kegiatan Literasi Anak oleh KKM Kelompok 15 di Kampung Karet',
+    title: 'Kegiatan Literasi Anak oleh KKM Kelompok 15 di Kampung Karet',
+    excerpt: 'Mahasiswa KKM Kelompok 15 mengadakan kegiatan literasi anak di Kampung Karet.',
+    category: 'pendidikan',
+    image: 'images/kkm12.jpg',
     group: 'Kelompok 15',
-    village: 'Kelurahan Kepuh',
-    date: '7 Jul 2026',
+    village: 'Kampung Karet',
+    date: '18 Jul 2026',
     readTime: '4 menit baca',
     content: [
-      'Akses menuju Lingkungan Karet dari arah Jalan Lingkar Selatan (JLS) selama ini cukup membingungkan bagi warga maupun tamu yang baru pertama kali berkunjung ke posko KKM 15, karena minimnya penanda arah di beberapa persimpangan.',
-      'Mahasiswa KKM Kelompok 15 Universitas Bina Bangsa bersama karang taruna setempat memasang plang penunjuk arah di titik-titik strategis, mulai dari persimpangan JLS hingga area posko dan lokasi kegiatan penataan lingkungan.',
-      'Selain memudahkan orientasi warga, plang ini juga dipakai untuk menandai titik-titik program kerja penataan lingkungan dan sistem drainase yang sedang berjalan di Kelurahan Kepuh.',
-      'Karang taruna berencana melanjutkan pemasangan penanda serupa di gang-gang kecil sekitar Lingkungan Karet agar seluruh area posko lebih mudah diakses ke depannya.',
+      `Kuliah Kerja Mahasiswa (KKM) Kelompok 15 Universitas Bina Bangsa menyelenggarakan kegiatan literasi anak di Kampung Karet, Kelurahan Kepuh, pada siang hari Jumat, 18 Juli 2026. Kegiatan ini merupakan salah satu program kerja unggulan bidang pendidikan yang dirancang untuk meningkatkan minat belajar anak-anak di lingkungan tersebut melalui pendekatan yang menyenangkan dan interaktif.
+Kegiatan diawali dengan sesi perkenalan, di mana setiap anak diminta menyebutkan nama serta cita-cita yang ingin mereka raih di masa depan. Sesi ini dirancang khusus untuk melatih keberanian berbicara di depan umum sekaligus menumbuhkan rasa percaya diri anak-anak sejak usia dini.
+Selanjutnya, kegiatan literasi diisi dengan berbagai metode pembelajaran, mulai dari belajar menghitung, belajar sambil bernyanyi, hingga permainan tebak-tebakan edukatif yang dikemas secara interaktif. Metode ini dipilih agar anak-anak tidak merasa bosan dan tetap antusias mengikuti seluruh rangkaian kegiatan hingga selesai.
+Seluruh momen kegiatan literasi didokumentasikan melalui foto dan video bersama anak-anak sebagai bentuk publikasi kegiatan sekaligus kenang-kenangan pelaksanaan KKM. Bidang Pendidikan turut merencanakan agar kegiatan literasi semacam ini dapat dilaksanakan secara rutin selama masa KKM, sebagai bagian dari upaya jangka panjang meningkatkan mutu pendidikan anak-anak di Kelurahan Kepuh.
+`,
+    ],
+  },
+  {
+    id: 'Kegiatan Literasi Anak oleh KKM Kelompok 15 di Kampung Karet',
+    title: 'Kegiatan Literasi Anak oleh KKM Kelompok 15 di Kampung Karet',
+    excerpt: 'Mahasiswa KKM Kelompok 15 mengadakan kegiatan literasi anak di Kampung Karet.',
+    category: 'pendidikan',
+    image: 'images/kkm12.jpg',
+    group: 'Kelompok 15',
+    village: 'Kampung Karet',
+    date: '18 Jul 2026',
+    readTime: '4 menit baca',
+    content: [
+      `Kuliah Kerja Mahasiswa (KKM) Kelompok 15 Universitas Bina Bangsa menyelenggarakan kegiatan literasi anak di Kampung Karet, Kelurahan Kepuh, pada siang hari Jumat, 18 Juli 2026. Kegiatan ini merupakan salah satu program kerja unggulan bidang pendidikan yang dirancang untuk meningkatkan minat belajar anak-anak di lingkungan tersebut melalui pendekatan yang menyenangkan dan interaktif.
+Kegiatan diawali dengan sesi perkenalan, di mana setiap anak diminta menyebutkan nama serta cita-cita yang ingin mereka raih di masa depan. Sesi ini dirancang khusus untuk melatih keberanian berbicara di depan umum sekaligus menumbuhkan rasa percaya diri anak-anak sejak usia dini.
+Selanjutnya, kegiatan literasi diisi dengan berbagai metode pembelajaran, mulai dari belajar menghitung, belajar sambil bernyanyi, hingga permainan tebak-tebakan edukatif yang dikemas secara interaktif. Metode ini dipilih agar anak-anak tidak merasa bosan dan tetap antusias mengikuti seluruh rangkaian kegiatan hingga selesai.
+Seluruh momen kegiatan literasi didokumentasikan melalui foto dan video bersama anak-anak sebagai bentuk publikasi kegiatan sekaligus kenang-kenangan pelaksanaan KKM. Bidang Pendidikan turut merencanakan agar kegiatan literasi semacam ini dapat dilaksanakan secara rutin selama masa KKM, sebagai bagian dari upaya jangka panjang meningkatkan mutu pendidikan anak-anak di Kelurahan Kepuh.
+`,
     ],
   },
 ];
