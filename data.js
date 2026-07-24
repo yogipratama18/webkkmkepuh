@@ -239,21 +239,42 @@ Seluruh momen kegiatan literasi didokumentasikan melalui foto dan video bersama 
     ],
   },
   {
-    id: 'Kegiatan Literasi Anak oleh KKM Kelompok 15 di Kampung Karet',
-    title: 'Kegiatan Literasi Anak oleh KKM Kelompok 15 di Kampung Karet',
-    excerpt: 'Mahasiswa KKM Kelompok 15 mengadakan kegiatan literasi anak di Kampung Karet.',
+    id: 'literasi-dan-kreativitas-kkm-kelompok-15-di-sd-cipaot',
+    title: 'Literasi dan Kreativitas KKM Kelompok 15 di SD Cipaot: Membangun Generasi Kreatif dan Peduli Lingkungan',
+    excerpt: 'Mahasiswa KKM Kelompok 15 mengadakan kegiatan literasi dan kreativitas di SD Cipaot, Kampung Karet, untuk membangun generasi kreatif dan peduli lingkungan.',
     category: 'pendidikan',
-    image: 'images/kkm12.jpg',
+    image: 'images/kkm13.jpg',
     group: 'Kelompok 15',
-    village: 'Kampung Karet',
+    village: 'Kampung Cipaot',
+    date: '21 Jul 2026',
+    readTime: '4 menit baca',
+    content: [
+      `SD Cipaot, Kelurahan Kepuh, Kecamatan Ciwandan, menjadi lokasi pelaksanaan Program Kerja Bidang Pendidikan bertema "Literasi dan Kreativitas" yang digelar oleh KKM Kelompok 15 Universitas Bina Bangsa pada Selasa, 21 Juli 2026. Kegiatan yang berlangsung mulai pukul 08.00 WIB ini diikuti dengan antusias oleh para siswa dari berbagai tingkatan kelas. Program ini dirancang untuk mengembangkan kemampuan literasi, kreativitas, serta kepedulian lingkungan sejak dini melalui berbagai aktivitas yang interaktif dan menyenangkan.
+Kegiatan diawali dengan pembukaan dan perkenalan mahasiswa KKM kepada para siswa, dilanjutkan dengan penyampaian tujuan pelaksanaan program. Suasana hangat dan penuh semangat terlihat saat mahasiswa menyapa para siswa yang telah berkumpul dengan penuh rasa ingin tahu. Program ini menjadi salah satu bentuk pengabdian mahasiswa di bidang pendidikan yang diharapkan dapat memberikan pengalaman belajar yang berbeda dan bermakna bagi anak-anak SD Cipaot.
+Di kelas II SD, mahasiswa KKM mengajak siswa mengikuti kegiatan kreativitas membuat bunga matahari menggunakan kertas yang telah disiapkan. Anak-anak diberikan kebebasan untuk menghias dan menyusun hasil karyanya sesuai dengan imajinasi masing-masing. Kegiatan ini bertujuan melatih keterampilan motorik halus, mengembangkan imajinasi, serta membangun rasa percaya diri anak melalui hasil karya yang mereka buat sendiri. Para siswa terlihat sangat gembira dan bersemangat saat menggunting, menempel, dan menghias bunga matahari kreasi mereka.
+Setelah sesi kreativitas selesai, mahasiswa KKM mengadakan permainan edukatif berupa tebak-tebakan dan kuis seputar Pancasila serta berhitung sederhana. Metode ini dipilih untuk membuat proses pembelajaran lebih menarik dan tidak membosankan. Siswa yang berhasil menjawab pertanyaan dengan benar diberikan hadiah sebagai bentuk apresiasi dan motivasi agar lebih semangat dalam belajar. Antusiasme siswa terlihat dari tingginya partisipasi mereka dalam menjawab setiap pertanyaan yang diajukan.
+Kegiatan dilanjutkan dengan pembuatan kolase dari bahan daur ulang seperti kertas bekas dan bahan lain yang masih dapat dimanfaatkan. Masing-masing kelas mulai dari kelas II hingga kelas VI mengirimkan lima orang perwakilan untuk berkumpul di satu ruangan. Melalui kegiatan ini, siswa diajak untuk meningkatkan kreativitas sekaligus menumbuhkan kepedulian terhadap lingkungan dengan memanfaatkan barang bekas menjadi karya seni yang bernilai. Mahasiswa KKM memberikan pendampingan selama proses pembuatan sehingga suasana belajar berlangsung aktif, menyenangkan, dan interaktif.
+Seluruh siswa mengikuti kegiatan dengan pemahaman dan keterampilan yang baik dalam menyelesaikan hasil kolase. Kegiatan ditutup dengan sesi dokumentasi dan foto bersama antara mahasiswa KKM, guru, dan para siswa sebagai bentuk dokumentasi pelaksanaan Program Kerja Bidang Pendidikan yang telah berjalan sukses.
+Pada pukul 13.00 WIB, KKM Kelompok 13, 14, dan 15 berkumpul di Posko KKM Kelompok 15 bersama Dosen Pembimbing Lapangan (DPL) untuk melaksanakan rapat evaluasi mingguan. Dalam rapat tersebut, masing-masing kelompok memaparkan perkembangan program kerja yang telah dilaksanakan selama satu minggu, menyampaikan capaian kegiatan, kendala yang dihadapi di lapangan, serta berdiskusi mengenai solusi dan strategi agar pelaksanaan program kerja selanjutnya dapat berjalan lebih optimal. Rapat evaluasi ditutup dengan arahan dan masukan dari DPL agar seluruh kelompok KKM tetap menjaga komunikasi, kerja sama tim, serta meningkatkan kualitas pelaksanaan program kerja yang akan datang.
+Kegiatan Literasi dan Kreativitas di SD Cipaot ini menjadi bukti nyata kontribusi mahasiswa KKM Kelompok 15 dalam memajukan dunia pendidikan di Kelurahan Kepuh. Dengan semangat berbagi dan menginspirasi, mereka berharap kegiatan serupa dapat terus dilaksanakan untuk mencetak generasi muda yang kreatif, cerdas, dan peduli terhadap lingkungan.`,
+    ],
+  },
+  {
+    id: 'Pelaksanaan-Program-Literasi-dan-Kreativitas-KKM-Kelompok-15-di-PAUD-Hikmatul-Ulum',
+    title: 'Pelaksanaan Program Literasi dan Kreativitas KKM Kelompok 15 di PAUD Hikmatul Ulum',
+    excerpt: 'Mahasiswa KKM Kelompok 15 mengadakan kegiatan literasi anak di PAUD Hikmatul Ulum.',
+    category: 'pendidikan',
+    image: 'images/kkm14.jpg',
+    group: 'Kelompok 15',
+    village: 'Kampung Cipaot',
     date: '18 Jul 2026',
     readTime: '4 menit baca',
     content: [
-      `Kuliah Kerja Mahasiswa (KKM) Kelompok 15 Universitas Bina Bangsa menyelenggarakan kegiatan literasi anak di Kampung Karet, Kelurahan Kepuh, pada siang hari Jumat, 18 Juli 2026. Kegiatan ini merupakan salah satu program kerja unggulan bidang pendidikan yang dirancang untuk meningkatkan minat belajar anak-anak di lingkungan tersebut melalui pendekatan yang menyenangkan dan interaktif.
-Kegiatan diawali dengan sesi perkenalan, di mana setiap anak diminta menyebutkan nama serta cita-cita yang ingin mereka raih di masa depan. Sesi ini dirancang khusus untuk melatih keberanian berbicara di depan umum sekaligus menumbuhkan rasa percaya diri anak-anak sejak usia dini.
-Selanjutnya, kegiatan literasi diisi dengan berbagai metode pembelajaran, mulai dari belajar menghitung, belajar sambil bernyanyi, hingga permainan tebak-tebakan edukatif yang dikemas secara interaktif. Metode ini dipilih agar anak-anak tidak merasa bosan dan tetap antusias mengikuti seluruh rangkaian kegiatan hingga selesai.
-Seluruh momen kegiatan literasi didokumentasikan melalui foto dan video bersama anak-anak sebagai bentuk publikasi kegiatan sekaligus kenang-kenangan pelaksanaan KKM. Bidang Pendidikan turut merencanakan agar kegiatan literasi semacam ini dapat dilaksanakan secara rutin selama masa KKM, sebagai bagian dari upaya jangka panjang meningkatkan mutu pendidikan anak-anak di Kelurahan Kepuh.
-`,
+      `Mahasiswa Kuliah Kerja Mahasiswa (KKM) Kelompok 15 Universitas Bina Bangsa melaksanakan Program Kerja Bidang Pendidikan di PAUD Hikmatul Ulum, Kelurahan Kepuh, Kecamatan Ciwandan, pada Rabu, 22 Juli 2026. Kegiatan ini mengusung tema “Literasi dan Kreativitas” dengan tujuan meningkatkan semangat belajar, kreativitas, serta kemampuan motorik anak-anak sejak usia dini.
+Kegiatan diawali dengan perkenalan seluruh anggota KKM kepada peserta didik agar tercipta suasana belajar yang akrab dan menyenangkan. Sebelum memasuki materi utama, mahasiswa mengajak anak-anak mengikuti permainan tebak-tebakan dan tanya jawab sederhana. Anak-anak yang berani menjawab pertanyaan diberikan hadiah sebagai bentuk apresiasi untuk meningkatkan rasa percaya diri dan motivasi belajar.
+Pada kegiatan inti, peserta didik belajar mengenal anggota tubuh melalui media gambar. Setiap anak diberikan lembar kerja yang berisi gambar anggota tubuh, kemudian diminta menggunting dan mencocokkan bagian-bagian tubuh pada posisi yang benar. Melalui aktivitas tersebut, anak-anak dilatih untuk mengenal anggota tubuh, meningkatkan konsentrasi, serta mengembangkan kemampuan motorik halus dan koordinasi mata dengan tangan. Seluruh kegiatan berlangsung dengan antusias didampingi oleh mahasiswa KKM hingga setiap peserta mampu menyelesaikan tugasnya dengan baik.
+Pada sore harinya, kegiatan dilanjutkan dengan pelaksanaan Les Sore di Posko KKM Kelompok 15 yang mengangkat tema “Diriku”. Anak-anak diajak membuat karya kreatif dengan menghias gambar wajah menggunakan potongan kertas berwarna sebagai rambut, kemudian melengkapi gambar dengan mata, hidung, dan mulut sesuai imajinasi masing-masing. Setelah selesai, setiap peserta menuliskan nama pada hasil karyanya sebagai bagian dari pengenalan identitas diri.
+Sebagai penutup, mahasiswa KKM kembali mengadakan permainan tebak-tebakan edukatif yang disambut antusias oleh seluruh peserta. Anak-anak yang berhasil menjawab pertanyaan memperoleh hadiah sebagai bentuk penghargaan sekaligus motivasi agar semakin semangat dalam belajar. Kegiatan ini diharapkan dapat memberikan pengalaman belajar yang menyenangkan serta mempererat hubungan antara mahasiswa KKM dengan masyarakat, khususnya peserta didik di PAUD Hikmatul Ulum.`,
     ],
   },
 ];
