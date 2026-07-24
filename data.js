@@ -206,7 +206,7 @@ Kegiatan gotong royong ini mendapat sambutan positif dari pengurus Dewan Kemakmu
     id: 'senam-pagi-bersama-masyarakat',
     title: 'Senam Pagi Bersama Masyarakat di Lapangan Voli Kampung Karet',
     excerpt: 'Mahasiswa KKM Kelompok 15 mengadakan kegiatan senam pagi bersama masyarakat di lapangan voli Kampung Karet.',
-    category: 'Kesehatan',
+    category: 'kesehatan',
     image: 'images/kkm11.jpg',
     group: 'Kelompok 15',
     village: 'Kampung Karet',
