@@ -277,8 +277,131 @@ Pada sore harinya, kegiatan dilanjutkan dengan pelaksanaan Les Sore di Posko KKM
 Sebagai penutup, mahasiswa KKM kembali mengadakan permainan tebak-tebakan edukatif yang disambut antusias oleh seluruh peserta. Anak-anak yang berhasil menjawab pertanyaan memperoleh hadiah sebagai bentuk penghargaan sekaligus motivasi agar semakin semangat dalam belajar. Kegiatan ini diharapkan dapat memberikan pengalaman belajar yang menyenangkan serta mempererat hubungan antara mahasiswa KKM dengan masyarakat, khususnya peserta didik di PAUD Hikmatul Ulum.`,
     ],
   },
+  {
+    id: 'Monitoring-dan-Evaluasi-Mengukur-Dampak-dan-Progres-Pengabdian',
+    title: 'Monitoring dan Evaluasi: Mengukur Dampak dan Progres Pengabdian KKM Kelompok ',
+    excerpt: 'Laporan komprehensif mengenai kegiatan Kuliah Kerja Mahasiswa (KKM) Universitas Bina Bangsa Tahun 2026, termasuk monev dan aksi nyata KKM Kelompok 15 di Kelurahan Kepuh.',
+    category: 'kabar-desa',
+    image: 'images/kkm15.jpg',
+    group: 'Kelompok 15',
+    village: 'Posko KKM Kelompok 14 Gunung Sugih, Kelurahan Kepuh',
+    date: '2 Agustus 2026',
+    readTime: '4 menit baca',
+    content: [
+      `Pada tanggal 02 Agustus 2026, perwakilan Badan Pengurus Harian (BPH) dan anggota KKM Kelompok 15 Universitas Bina Bangsa mengikuti kegiatan Monitoring dan Evaluasi (Monev) di Posko KKM Kelompok 14 Gunung Sugih. Acara ini dihadiri oleh Tim Monev, Dosen Pembimbing Lapangan (DPL), serta KKM Kelompok 13, 14, dan 15 guna mengevaluasi program kerja. 
+Kegiatan diawali dengan pembukaan dari Tim Monev yang menjelaskan tujuan pemantauan untuk mengetahui perkembangan, kendala, dan capaian program kerja. Sesi evaluasi dimulai dari KKM Kelompok 14 dan Kelompok 13 yang menyampaikan laporan serta menerima masukan dari Tim Monev dan DPL. 
+Dalam pemaparannya, KKM Kelompok 15 menjelaskan berbagai program kerja yang telah berjalan maupun yang masih dalam persiapan. Salah satu inovasi yang disoroti adalah pengembangan produk kue ongol-ongol menggunakan briket batok kelapa halus untuk memberikan cita rasa dan tekstur unik. Selain itu, kelompok juga melaporkan progres program UMKM dan Bidang Tata Kelola Pemerintahan di Kelurahan Kepuh. 
+Terkait Bidang Kesehatan, KKM Kelompok 15 menjadwalkan kegiatan sosialisasi dan edukasi kesehatan pada tanggal 6 dan 10 Agustus 2026. Acara Monev ini diakhiri dengan evaluasi dan arahan dari Tim Monev serta sesi dokumentasi bersama. 
+`,
+    ],
+  },
+  {
+    id: 'Kolaborasi-Pengecatan-Plang-Penunjuk-di-Kantor-Kelurahan-Kepuh',
+    title: 'Kolaborasi Pengecatan Plang Penunjuk di Kantor Kelurahan Kepuh',
+    excerpt: 'Mahasiswa KKM Kelompok 15 bekerja sama dengan warga melaksanakan pengecatan plang penunjuk di Kantor Kelurahan Kepuh.',
+    category: 'kabar-desa',
+    image: 'images/kkm16.jpg',
+    group: 'Kelompok 15',
+    village: 'Kantor Kelurahan Kepuh, Kecamatan Ciwandan',
+    date: '2 Agustus 2026',
+    readTime: '4 menit baca',
+    content: [
+      `Pukul 14.00 WIB pada tanggal 02 Agustus 2026, seluruh anggota KKM Kelompok 15 melanjutkan pelaksanaan Program Kerja Bidang Tata Kelola Pemerintahan di Kantor Kelurahan Kepuh. Kegiatan ini difokuskan pada perbaikan, pengamplasan, dan pengecatan plang penunjuk kelurahan yang sebelumnya mengalami kerusakan serta warna catnya yang mulai memudar. 
+Proses pengerjaan diawali dengan membersihkan permukaan plang secara menyeluruh, mengikis sisa cat lama, dan menghaluskannya menggunakan amplas agar hasil pengecatan menjadi lebih rapi serta tahan lama. Setelah persiapan selesai, tahap pengecatan dilakukan secara bertahap hingga plang tampak kembali bersih, menarik, dan mudah dibaca oleh masyarakat maupun pendatang. 
+Kegiatan perbaikan fasilitas ini semakin bermakna karena dikerjakan secara kolaboratif bersama rekan-rekan KKM Kelompok 33 Universitas Sultan Ageng Tirtayasa (Untirta). Melalui sinergi yang baik antarperguruan tinggi ini, penataan sarana publik di Kelurahan Kepuh dapat diselesaikan dengan lancar, tepat waktu, serta memberikan manfaat nyata bagi pemerintah kelurahan dan warga setempat.
+`,
+    ],
+  },
+  {
+    id: 'Pemanfaatan-Lahan-Pekarangan-melalui-Program-Ketahanan-Pangan',
+    title: 'Pemanfaatan Lahan Pekarangan melalui Program Ketahanan Pangan ',
+    excerpt: 'Mahasiswa KKM Kelompok 15 melaksanakan pemanfaatan lahan pekarangan.',
+    category: 'kabar-desa',
+    image: 'images/kkm17.jpg',
+    group: 'Kelompok 15',
+    village: 'Kantor Kelurahan Kepuh, Kecamatan Ciwandan',
+    date: '3 Agustus 2026',
+    readTime: '4 menit baca',
+    content: [
+      `Pada tanggal 03 Agustus 2026, KKM Kelompok 15 Universitas Bina Bangsa melaksanakan Program Kerja Bidang Ketahanan Pangan di Kantor Kelurahan Kepuh. Kegiatan ini difokuskan pada pemanfaatan lahan pekarangan dengan menanam berbagai jenis tanaman pangan dan Tanaman Obat Keluarga (TOGA) guna mendorong produktivitas lahan kosong serta meningkatkan kesadaran warga akan pentingnya ketahanan pangan rumah tangga. 
+Proses pengerjaan diawali dengan penyiapan perlengkapan seperti polybag, media tanam, serta berbagai bibit tanaman. Anggota KKM bekerja sama menanam cabai, jahe, kunyit, bangle, kumis kucing, hingga tempuyung ke dalam pot dan polybag dengan teknik penanaman yang tepat agar pertumbuhan tanaman optimal. 
+Sebagai upaya edukasi, mahasiswa juga memasang plang identitas pada setiap tanaman. Hal ini memudahkan masyarakat untuk mengenali jenis tanaman serta memahami manfaat kesehatannya. Selain itu, anggota KKM menata posisi tanaman agar lingkungan kantor kelurahan tampak lebih hijau, asri, dan nyaman. 
+Melalui program ini, diharapkan masyarakat terinspirasi untuk memanfaatkan pekarangan rumah sebagai sumber pangan dan tanaman herbal yang berkelanjutan. Kegiatan berlangsung dengan penuh semangat dan kerja sama yang baik antaranggota hingga seluruh rangkaian penanaman selesai dengan sukses.`,
+    ],
+  },
+  {
+    id: 'Silaturahmi-dan-Sosialisasi-Program-Kerja-KKM-Kelompok-15-di-Kantor-Kelurahan-Kepuh',
+    title: 'Mempererat Sinergi, KKM Kelompok 15 Laksanakan Silaturahmi dengan Tokoh Masyarakat',
+    excerpt: 'Mahasiswa KKM Kelompok 15 melaksanakan silaturahmi dan sosialisasi program kerja di Kantor Kelurahan Kepuh.',
+    category: 'kabar-desa',
+    image: 'images/kkm18.jpg',
+    group: 'Kelompok 15',
+    village: 'Kantor Kelurahan Kepuh, Kecamatan Ciwandan',
+    date: '2 Agustus 2026',
+    readTime: '4 menit baca',
+    content: [
+      `Masih dalam rangkaian pengabdian di Kelurahan Kepuh, sebagian anggota KKM Kelompok 15 Universitas Bina Bangsa melaksanakan kegiatan sowan dan silaturahmi kepada salah satu tokoh masyarakat setempat, Bapak H. Rosyid Haerudin, pada tanggal 03 Agustus 2026. Kegiatan ini bertujuan untuk mempererat hubungan antara mahasiswa dengan tokoh masyarakat sekaligus membangun komunikasi yang baik dalam mendukung kelancaran program kerja KKM.
+Dalam pertemuan tersebut, dilakukan diskusi hangat mengenai kondisi masyarakat serta perkembangan pelaksanaan program KKM di lapangan. Suasana keakraban tampak terjalin dengan baik saat mahasiswa bertukar pikiran dan mendengarkan berbagai pandangan dari tokoh masyarakat mengenai potensi di lingkungan Kelurahan Kepuh. 
+Bapak H. Rosyid Haerudin menyambut baik kunjungan tersebut serta memberikan dukungan penuh, masukan, serta motivasi kepada mahasiswa. Beliau berpesan agar kelompok mahasiswa tetap menjaga kekompakan, kesehatan, dan semangat dalam menyelesaikan seluruh rangkaian kegiatan pengabdian hingga masa penugasan berakhir. 
+Kegiatan silaturahmi ini diakhiri dengan sesi dokumentasi bersama sebagai bentuk arsip pelaksanaan program. Momen ini tidak hanya menjadi bukti formal, tetapi juga mencerminkan suasana kekeluargaan dan dukungan nyata tokoh masyarakat terhadap kehadiran mahasiswa KKM Kelompok 15 di Kelurahan Kepuh.
+`,
+    ],
+  },
+  {
+    id: 'KKM-Kelompok-15-Gelar-Sosialisasi-Stop-Bullying-di-SDN-Cipaot',
+    title: 'KKM Kelompok 15 Gelar Sosialisasi Stop Bullying di SDN Cipaot',
+    excerpt: 'Mahasiswa KKM Kelompok 15 Universitas Bina Bangsa mengadakan sosialisasi Stop Bullying di SDN Cipaot, Kampung Cipaot, Kelurahan Kepuh.',
+    category: 'pendidikan',
+    image: 'images/kkm19.jpg',
+    group: 'Kelompok 15',
+    village: 'SDN Cipaot, Kampung Cipaot, Kelurahan Kepuh',
+    date: '4 Agustus 2026',
+    readTime: '4 menit baca',
+    content: [
+      `Pada tanggal 04 Agustus 2026, mahasiswa KKM Kelompok 15 Universitas Bina Bangsa melaksanakan program kerja di bidang pendidikan berupa sosialisasi Stop Bullying kepada siswa-siswi Kelas VI di SDN Cipaot, Kp. Combong. Kegiatan ini bertujuan untuk meningkatkan kesadaran sejak dini mengenai pentingny menciptakan lingkungan sekolah yang aman, nyaman, serta bebas dari tindakan perundungan. 
+Rangkaian acara dimulai dengan registrasi peserta, pengaturan tempat duduk oleh anggota KKM, pembukaan, doa bersama, serta sambutan dari pihak sekolah. Selanjutnya, mahasiswa memaparkan materi mengenai pengertian bullying, berbagai jenisnya, penyebab, dampak buruk bagi korban maupun pelaku, serta langkah-langkah pencegahannya dengan metode yang interaktif. 
+Untuk mencairkan suasana dan memperkuat pemahaman siswa, kegiatan diisi dengan sesi ice breaking, diskusi kelompok, serta tanya jawab interaktif yang disambut dengan antusias tinggi oleh para peserta. Sebagai penutup sesi sosialisasi, seluruh siswa bersama-sama mengikuti deklarasi dan penandatanganan komitmen Anti-Bullying yang diakhiri dengan dokumentasi foto bersama. 
+Melalui kegiatan ini, diharapkan para siswa dapat saling menghargai dan mengimplementasikan nilai-nilai positif dalam kehidupan sehari-hari di sekolah. Kehadiran mahasiswa KKM Kelompok 15 mendapatkan sambutan hangat serta apresiasi dari pihak sekolah karena dinilai memberikan edukasi yang sangat bermanfaat bagi pembentukan karakter anak.`,
+    ],
+  },
+  {
+    id: 'Gotong-Royong-Pembuatan-Gapura-Menyambut-HUT-RI-Bersama-Warga',
+    title: 'Gotong Royong Pembuatan Gapura Menyambut HUT RI Bersama Warga',
+    excerpt: 'Mahasiswa KKM Kelompok 15 Universitas Bina Bangsa melaksanakan kegiatan gotong royong pembuatan gapura untuk menyambut Hari Ulang Tahun Republik Indonesia ke-81 bersama warga Kampung Cipaot, Kelurahan Kepuh.',
+    category: 'kabar-desa',
+    image: 'images/kkm20.jpg',
+    group: 'Kelompok 15',
+    village: 'link combong',
+    date: '4 Agustus 2026',
+    readTime: '4 menit baca',
+    content: [
+      `Masih dalam rangkaian pengabdian di Kelurahan Kepuh, sebagian anggota KKM Kelompok 15 Universitas Bina Bangsa melaksanakan kegiatan sowan dan silaturahmi kepada salah satu tokoh masyarakat setempat, Bapak H. Rosyid Haerudin, pada tanggal 03 Agustus 2026. Kegiatan ini bertujuan untuk mempererat hubungan antara mahasiswa dengan tokoh masyarakat sekaligus membangun komunikasi yang baik dalam mendukung kelancaran program kerja KKM.
+Dalam pertemuan tersebut, dilakukan diskusi hangat mengenai kondisi masyarakat serta perkembangan pelaksanaan program KKM di lapangan. Suasana keakraban tampak terjalin dengan baik saat mahasiswa bertukar pikiran dan mendengarkan berbagai pandangan dari tokoh masyarakat mengenai potensi di lingkungan Kelurahan Kepuh. 
+Bapak H. Rosyid Haerudin menyambut baik kunjungan tersebut serta memberikan dukungan penuh, masukan, serta motivasi kepada mahasiswa. Beliau berpesan agar kelompok mahasiswa tetap menjaga kekompakan, kesehatan, dan semangat dalam menyelesaikan seluruh rangkaian kegiatan pengabdian hingga masa penugasan berakhir. 
+Kegiatan silaturahmi ini diakhiri dengan sesi dokumentasi bersama sebagai bentuk arsip pelaksanaan program. Momen ini tidak hanya menjadi bukti formal, tetapi juga mencerminkan suasana kekeluargaan dan dukungan nyata tokoh masyarakat terhadap kehadiran mahasiswa KKM Kelompok 15 di Kelurahan Kepuh.
+`,
+    ],
+  },
+  {
+    id: 'Silaturahmi-dan-Sosialisasi-Program-Kerja-KKM-Kelompok-15-di-Kantor-Kelurahan-Kepuh',
+    title: 'Mempererat Sinergi, KKM Kelompok 15 Laksanakan Silaturahmi dengan Tokoh Masyarakat',
+    excerpt: 'Mahasiswa KKM Kelompok 15 melaksanakan silaturahmi dan sosialisasi program kerja di Kantor Kelurahan Kepuh.',
+    category: 'kabar-desa',
+    image: 'images/kkm18.jpg',
+    group: 'Kelompok 15',
+    village: 'Kantor Kelurahan Kepuh, Kecamatan Ciwandan',
+    date: '2 Agustus 2026',
+    readTime: '4 menit baca',
+    content: [
+      `Masih dalam rangkaian pengabdian di Kelurahan Kepuh, sebagian anggota KKM Kelompok 15 Universitas Bina Bangsa melaksanakan kegiatan sowan dan silaturahmi kepada salah satu tokoh masyarakat setempat, Bapak H. Rosyid Haerudin, pada tanggal 03 Agustus 2026. Kegiatan ini bertujuan untuk mempererat hubungan antara mahasiswa dengan tokoh masyarakat sekaligus membangun komunikasi yang baik dalam mendukung kelancaran program kerja KKM.
+Dalam pertemuan tersebut, dilakukan diskusi hangat mengenai kondisi masyarakat serta perkembangan pelaksanaan program KKM di lapangan. Suasana keakraban tampak terjalin dengan baik saat mahasiswa bertukar pikiran dan mendengarkan berbagai pandangan dari tokoh masyarakat mengenai potensi di lingkungan Kelurahan Kepuh. 
+Bapak H. Rosyid Haerudin menyambut baik kunjungan tersebut serta memberikan dukungan penuh, masukan, serta motivasi kepada mahasiswa. Beliau berpesan agar kelompok mahasiswa tetap menjaga kekompakan, kesehatan, dan semangat dalam menyelesaikan seluruh rangkaian kegiatan pengabdian hingga masa penugasan berakhir. 
+Kegiatan silaturahmi ini diakhiri dengan sesi dokumentasi bersama sebagai bentuk arsip pelaksanaan program. Momen ini tidak hanya menjadi bukti formal, tetapi juga mencerminkan suasana kekeluargaan dan dukungan nyata tokoh masyarakat terhadap kehadiran mahasiswa KKM Kelompok 15 di Kelurahan Kepuh.
+`,
+    ],
+  },
 ];
-
+  
 function getArticleById(id){
   return ARTICLES.find(a => a.id === id) || null;
 }
