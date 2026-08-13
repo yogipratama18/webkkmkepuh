@@ -299,7 +299,7 @@ Terkait Bidang Kesehatan, KKM Kelompok 15 menjadwalkan kegiatan sosialisasi dan 
     id: 'Kolaborasi-Pengecatan-Plang-Penunjuk-di-Kantor-Kelurahan-Kepuh',
     title: 'Kolaborasi Pengecatan Plang Penunjuk di Kantor Kelurahan Kepuh',
     excerpt: 'Mahasiswa KKM Kelompok 15 bekerja sama dengan warga melaksanakan pengecatan plang penunjuk di Kantor Kelurahan Kepuh.',
-    category: 'kabar-desa',
+    category: 'linkungan',
     image: 'images/kkm16.jpg',
     group: 'Kelompok 15',
     village: 'Kantor Kelurahan Kepuh, Kecamatan Ciwandan',
@@ -316,7 +316,7 @@ Kegiatan perbaikan fasilitas ini semakin bermakna karena dikerjakan secara kolab
     id: 'Pemanfaatan-Lahan-Pekarangan-melalui-Program-Ketahanan-Pangan',
     title: 'Pemanfaatan Lahan Pekarangan melalui Program Ketahanan Pangan ',
     excerpt: 'Mahasiswa KKM Kelompok 15 melaksanakan pemanfaatan lahan pekarangan.',
-    category: 'kabar-desa',
+    category: 'kesehatan',
     image: 'images/kkm17.jpg',
     group: 'Kelompok 15',
     village: 'Kantor Kelurahan Kepuh, Kecamatan Ciwandan',
@@ -365,39 +365,126 @@ Melalui kegiatan ini, diharapkan para siswa dapat saling menghargai dan mengimpl
     ],
   },
   {
-    id: 'Gotong-Royong-Pembuatan-Gapura-Menyambut-HUT-RI-Bersama-Warga',
-    title: 'Gotong Royong Pembuatan Gapura Menyambut HUT RI Bersama Warga',
-    excerpt: 'Mahasiswa KKM Kelompok 15 Universitas Bina Bangsa melaksanakan kegiatan gotong royong pembuatan gapura untuk menyambut Hari Ulang Tahun Republik Indonesia ke-81 bersama warga Kampung Cipaot, Kelurahan Kepuh.',
-    category: 'kabar-desa',
+    id: 'Cerdaskan-Anak-Bangsa-KKM-Kelompok-15-Gelar-Bimbingan-Belajar-Gratis',
+    title: 'Cerdaskan Anak Bangsa, KKM Kelompok 15 Gelar Bimbingan Belajar Gratis',
+    excerpt: 'Mahasiswa KKM Kelompok 15 Universitas Bina Bangsa mengadakan bimbingan belajar gratis untuk anak-anak.',
+    category: 'pendidikan',
     image: 'images/kkm20.jpg',
     group: 'Kelompok 15',
-    village: 'link combong',
-    date: '4 Agustus 2026',
+    village: 'Posko KKM 15, link karet',
+    date: '5 Agustus 2026',
     readTime: '4 menit baca',
     content: [
-      `Masih dalam rangkaian pengabdian di Kelurahan Kepuh, sebagian anggota KKM Kelompok 15 Universitas Bina Bangsa melaksanakan kegiatan sowan dan silaturahmi kepada salah satu tokoh masyarakat setempat, Bapak H. Rosyid Haerudin, pada tanggal 03 Agustus 2026. Kegiatan ini bertujuan untuk mempererat hubungan antara mahasiswa dengan tokoh masyarakat sekaligus membangun komunikasi yang baik dalam mendukung kelancaran program kerja KKM.
-Dalam pertemuan tersebut, dilakukan diskusi hangat mengenai kondisi masyarakat serta perkembangan pelaksanaan program KKM di lapangan. Suasana keakraban tampak terjalin dengan baik saat mahasiswa bertukar pikiran dan mendengarkan berbagai pandangan dari tokoh masyarakat mengenai potensi di lingkungan Kelurahan Kepuh. 
-Bapak H. Rosyid Haerudin menyambut baik kunjungan tersebut serta memberikan dukungan penuh, masukan, serta motivasi kepada mahasiswa. Beliau berpesan agar kelompok mahasiswa tetap menjaga kekompakan, kesehatan, dan semangat dalam menyelesaikan seluruh rangkaian kegiatan pengabdian hingga masa penugasan berakhir. 
-Kegiatan silaturahmi ini diakhiri dengan sesi dokumentasi bersama sebagai bentuk arsip pelaksanaan program. Momen ini tidak hanya menjadi bukti formal, tetapi juga mencerminkan suasana kekeluargaan dan dukungan nyata tokoh masyarakat terhadap kehadiran mahasiswa KKM Kelompok 15 di Kelurahan Kepuh.
+      `Memasuki waktu sore hari pada tanggal 05 Agustus 2026, mahasiswa KKM Kelompok 15 melanjutkan agenda program kerja di bidang pendidikan. Kegiatan tersebut berupa bimbingan belajar atau les gratis yang bertempat di Posko KKM Kelompok 15 dan diikuti dengan antusias oleh anak-anak di lingkungan sekitar.  
+Materi pembelajaran yang diberikan disesuaikan dengan jenjang pendidikan masing-masing peserta dengan fokus utama pada operasi hitung dasar. Mahasiswa membimbing anak-anak belajar penjumlahan, pengurangan, perkalian, serta pembagian secara bertahap menggunakan metode yang sederhana dan menyenangkan.  
+Suasana belajar berlangsung sangat interaktif, di mana anak-anak terlihat aktif bertanya ketika menemui kesulitan serta bersemangat mengerjakan latihan soal. Mahasiswa KKM mendampingi setiap peserta secara langsung guna memastikan mereka benar-benar memahami konsep dasar matematika yang diajarkan.  
+Di akhir sesi, mahasiswa memberikan evaluasi singkat serta motivasi kepada anak-anak agar rajin belajar dan mengulang materi di rumah. Kegiatan bimbingan belajar ini diharapkan mampu memberikan manfaat edukatif serta mempererat kedekatan emosional antara mahasiswa dan warga sekitar posko.
 `,
     ],
   },
   {
-    id: 'Silaturahmi-dan-Sosialisasi-Program-Kerja-KKM-Kelompok-15-di-Kantor-Kelurahan-Kepuh',
-    title: 'Mempererat Sinergi, KKM Kelompok 15 Laksanakan Silaturahmi dengan Tokoh Masyarakat',
-    excerpt: 'Mahasiswa KKM Kelompok 15 melaksanakan silaturahmi dan sosialisasi program kerja di Kantor Kelurahan Kepuh.',
-    category: 'kabar-desa',
-    image: 'images/kkm18.jpg',
+    id: 'Mahasiswa-KKM-Kelompok-15-Turut-Serta-Mendukung-Pelayanan-Posyandu-Lumba-Lumba',
+    title: 'Mahasiswa KKM Kelompok 15 Turut Serta Mendukung Pelayanan Posyandu Lumba-Lumba',
+    excerpt: 'Mahasiswa KKM Kelompok 15 Universitas Bina Bangsa turut serta mendukung pelaksanaan pelayanan Posyandu Lumba-Lumba.',
+    category: 'kesehatan',
+    image: 'images/kkm21.jpg',
     group: 'Kelompok 15',
-    village: 'Kantor Kelurahan Kepuh, Kecamatan Ciwandan',
-    date: '2 Agustus 2026',
+    village: 'Posyandu Lumba-Lumba, Link Combong, Kelurahan Kepuh',
+    date: '6 Agustus 2026',
     readTime: '4 menit baca',
     content: [
-      `Masih dalam rangkaian pengabdian di Kelurahan Kepuh, sebagian anggota KKM Kelompok 15 Universitas Bina Bangsa melaksanakan kegiatan sowan dan silaturahmi kepada salah satu tokoh masyarakat setempat, Bapak H. Rosyid Haerudin, pada tanggal 03 Agustus 2026. Kegiatan ini bertujuan untuk mempererat hubungan antara mahasiswa dengan tokoh masyarakat sekaligus membangun komunikasi yang baik dalam mendukung kelancaran program kerja KKM.
-Dalam pertemuan tersebut, dilakukan diskusi hangat mengenai kondisi masyarakat serta perkembangan pelaksanaan program KKM di lapangan. Suasana keakraban tampak terjalin dengan baik saat mahasiswa bertukar pikiran dan mendengarkan berbagai pandangan dari tokoh masyarakat mengenai potensi di lingkungan Kelurahan Kepuh. 
-Bapak H. Rosyid Haerudin menyambut baik kunjungan tersebut serta memberikan dukungan penuh, masukan, serta motivasi kepada mahasiswa. Beliau berpesan agar kelompok mahasiswa tetap menjaga kekompakan, kesehatan, dan semangat dalam menyelesaikan seluruh rangkaian kegiatan pengabdian hingga masa penugasan berakhir. 
-Kegiatan silaturahmi ini diakhiri dengan sesi dokumentasi bersama sebagai bentuk arsip pelaksanaan program. Momen ini tidak hanya menjadi bukti formal, tetapi juga mencerminkan suasana kekeluargaan dan dukungan nyata tokoh masyarakat terhadap kehadiran mahasiswa KKM Kelompok 15 di Kelurahan Kepuh.
+      `Pada tanggal 06 Agustus 2026 pukul 08.00 WIB, perwakilan mahasiswa KKM Kelompok 15 Universitas Bina Bangsa mengikuti kegiatan Posyandu Lumba-Lumba sebagai bentuk kolaborasi dengan tenaga kesehatan. Kegiatan ini bertujuan untuk mendukung pelayanan kesehatan masyarakat setempat, khususnya bagi balita, ibu hamil, dan para lansia.  
+Dalam pelaksanaannya, mahasiswa turut membantu berbagai proses pemeriksaan seperti mengukur lingkar kepala, lingkar dada, tinggi badan, serta menimbang berat badan balita dan lansia. Mereka juga membantu proses pencatatan hasil pemeriksaan, mendampingi pemberian imunisasi oleh bidan, serta mengarahkan peserta agar alur pelayanan berjalan tertib.  
+Sebagai bentuk kepedulian terhadap kesehatan warga, mahasiswa KKM juga membagikan vitamin kepada balita serta memberikan buah-buahan segar kepada ibu hamil, balita, dan lansia. Pemberian buah ini dimaksudkan sebagai tambahan asupan gizi serta dukungan nyata terhadap penerapan pola hidup sehat di tengah keluarga.  
+Rangkaian kegiatan Posyandu ini ditutup dengan sesi dokumentasi bersama tenaga kesehatan, kader posyandu, perangkat kelurahan, dan mahasiswa. Kehadiran mahasiswa KKM diharapkan mampu meningkatkan kesadaran masyarakat untuk secara rutin memantau kesehatan melalui kegiatan Posyandu setiap bulannya. 
 `,
+    ],
+  },
+  {
+    id: 'Pelatihan-Pembuatan-Kue-Tradisional-Ireng-Ireng-Dorong-Potensi-UMKM-Lokal',
+    title: 'Pelatihan Pembuatan Kue Tradisional Ireng-Ireng Dorong Potensi UMKM Lokal',
+    excerpt: 'Mahasiswa KKM Kelompok 15 Universitas Bina Bangsa mengadakan pelatihan pembuatan kue tradisional Ireng-Ireng untuk mendorong potensi UMKM lokal.',
+    category: 'ekonomi-umkm',
+    image: 'images/kkm22.jpg',
+    group: 'Kelompok 15',
+    village: 'Posko KKM 15, Link Combong, Kelurahan Kepuh',
+    date: '6 Agustus 2026',
+    readTime: '4 menit baca',
+    content: [
+      `Memasuki pukul 14.00 WIB pada tanggal 06 Agustus 2026, mahasiswa KKM Kelompok 15 melaksanakan program kerja bidang UMKM berupa pelatihan pembuatan kue tradisional Ireng-Ireng. Kegiatan yang diikuti oleh masyarakat sekitar ini memanfaatkan abu daun pisang sebagai salah satu bahan pendukung utamanya.  
+Mahasiswa menjelaskan secara mendetail tahapan pembuatan kue, mulai dari proses pembakaran daun pisang hingga menjadi abu halus. Setelah itu, abu dicampurkan dengan tepung terigu, tepung kanji, gula, santan, dan garam sesuai takaran yang pas.  
+Para ibu yang hadir tampak sangat antusias mengikuti praktik langsung didampingi oleh mahasiswa KKM. Mereka aktif bertanya mengenai teknik pengadonan, proses pengukusan, serta cara menghasilkan cita rasa dan tekstur kue tradisional yang lezat dan berkualitas.  
+Hasil kue Ireng-Ireng tersebut kemudian dinikmati bersama sebagai bentuk evaluasi sekaligus mempererat kebersamaan. Mahasiswa juga memotivasi warga agar keterampilan ini dapat dikembangkan menjadi peluang usaha rumahan guna meningkatkan ekonomi kreatif masyarakat.
+`,
+    ],
+  },
+  {
+    id: 'Permudah-Akses-Warga-KKM-Kelompok-15-Pasang-Plang-Petunjuk-Arah-Kelurahan-Kepuh',
+    title: 'Permudah Akses Warga, KKM Kelompok 15 Pasang Plang Petunjuk Arah Kelurahan Kepuh',
+    excerpt: 'Mahasiswa KKM Kelompok 15 Universitas Bina Bangsa memasang plang petunjuk arah di beberapa titik strategis di Kelurahan Kepuh.',
+    category: 'lingkungan',
+    image: 'images/kkm23.jpg',
+    group: 'Kelompok 15',
+    village: 'Desa Warungkara, Umbul, Cilurah, dan JLS, Kelurahan Kepuh',
+    date: '7 Agustus 2026',
+    readTime: '4 menit baca',
+    content: [
+      `KKM Kelompok 15 lainnya melaksanakan program kerja berupa pemasangan plang petunjuk arah menuju Kantor Kelurahan Kepuh. Kegiatan strategis ini bertujuan untuk mempermudah masyarakat maupun pendatang dalam menemukan lokasi Kantor Kelurahan Kepuh dengan lebih cepat dan akurat.  
+Sebelum proses pemasangan dimulai, mahasiswa bersama perangkat kelurahan melakukan pengecekan lokasi secara cermat. Pemasangan plang akhirnya difokuskan di empat titik jalur yang sering dilalui warga, yaitu Desa Warungkara, Umbul, Cilurah, dan Jalan Lingkar Selatan (JLS).  
+Dalam proses pengerjaannya, mahasiswa bekerja sama menggali tanah, memasang tiang, serta mencampur semen agar tiang plang berdiri kokoh dan aman. Seluruh anggota saling berbagi tugas mulai dari penyiapan peralatan hingga memastikan posisi plang menghadap ke arah yang mudah dibaca oleh pengguna jalan.  
+Masyarakat sekitar menyambut positif pemasangan plang ini karena dinilai sangat membantu memberikan informasi arah bagi tamu kelurahan. Kegiatan ini ditutup dengan dokumentasi bersama di setiap titik sebagai wujud kontribusi nyata mahasiswa dalam meningkatkan fasilitas informasi publik.`,
+    ],
+  },
+  {
+    id: 'KKM-Kelompok-15-Sulap-Gardu-Kp-Combong-Menjadi-Rumah-Literasi',
+    title: 'KKM Kelompok 15 Sulap Gardu Kp. Combong Menjadi Rumah Literasi',
+    excerpt: 'Mahasiswa KKM Kelompok 15 Universitas Bina Bangsa mengubah gardu di Kampung Combong menjadi Rumah Literasi untuk mendukung minat baca masyarakat.',
+    category: 'sosial',
+    image: 'images/kkm24.jpg',
+    group: 'Kelompok 15',
+    village: 'Link Combong, Kelurahan Kepuh',
+    date: '8 Agustus 2026',
+    readTime: '4 menit baca',
+    content: [
+      `Pada tanggal 08 Agustus 2026, anggota KKM Kelompok 15 Universitas Bina Bangsa melaksanakan kegiatan persiapan di Kp. Combong untuk mewujudkan Rumah Literasi. Gardu yang ada di wilayah tersebut dipilih dan dipersiapkan agar dapat dimanfaatkan sebagai pusat kegiatan belajar bagi anak-anak serta masyarakat sekitar.  
+Sebelum memulai pengecatan, para mahasiswa terlebih dahulu membersihkan area dinding gardu dari berbagai gambar atau tulisan lama. Proses pembersihan ini menggunakan tinner agar permukaan dinding menjadi jauh lebih bersih dan siap untuk dilapisi warna cat yang baru.  
+Setelah persiapan selesai, seluruh anggota KKM bergotong royong melakukan pengecatan dinding gardu secara bersama-sama. Mulai dari menyiapkan peralatan, mengecat seluruh bagian dinding, hingga merapikan kembali area sekitar dilakukan dengan penuh semangat dan kerja sama yang solid.  
+Pengecatan ini bertujuan untuk memperbaiki tampilan fisik gardu agar tampak lebih bersih, rapi, dan nyaman. Melalui pemanfaatan gardu ini, diharapkan fasilitas Rumah Literasi dapat segera berfungsi secara optimal untuk mendukung kegiatan edukasi anak-anak di Kp. Combong.`,
+    ],
+  },
+  {
+    id: 'KKM-Kelompok-15-Bersama-Warga-Laksanakan-Kerja-Bakti-Penataan-Lingkungan',
+    title: 'KKM Kelompok 15 Bersama Warga Laksanakan Kerja Bakti Penataan Lingkungan',
+    excerpt: 'Mahasiswa KKM Kelompok 15 Universitas Bina Bangsa bersama warga melaksanakan kerja bakti penataan lingkungan di Kampung Combong, Kelurahan Kepuh.',
+    category: 'lingkungan',
+    image: 'images/kkm25.jpg',
+    group: 'Kelompok 15',
+    village: 'Lingkungan Combong, Karet, dan Walikukun',
+    date: '9 Agustus 2026',
+    readTime: '4 menit baca',
+    content: [
+      `Pada tanggal 09 Agustus 2026 pagi hari, anggota KKM Kelompok 15 melaksanakan kegiatan kerja bakti bersama warga di lingkungan Combong Karet dan Walikukun. Kegiatan ini merupakan bentuk partisipasi serta kepedulian nyata mahasiswa terhadap kebersihan dan penataan lingkungan di tengah masyarakat. 
+Pelaksanaan kerja bakti dilakukan secara bersama-sama dengan membagi tugas antara anggota KKM dan warga setempat. Mereka saling bahu-membahu membersihkan serta merapikan berbagai sudut lingkungan yang dipersiapkan dalam rangka menyambut HUT Kemerdekaan Republik Indonesia. 
+Dalam aksi tersebut, mahasiswa KKM membantu melakukan berbagai pekerjaan fisik seperti mencangkul dan merapikan tanah, membersihkan area lapangan, hingga mengangkat dan menata semen serta genteng. Pembersihan juga difokuskan pada pengumpulan sampah serta benda tak terpakai agar kawasan sekitar terlihat lebih bersih dan rapi. 
+Kegiatan kerja bakti ini tidak hanya menciptakan lingkungan yang asri, tetapi juga menjadi sarana interaksi bagi mahasiswa untuk membangun kerja sama yang erat dengan warga. Seluruh rangkaian kegiatan ditutup dengan pengecekan kebersihan dan dokumentasi bersama sebagai arsip laporan pelaksanaan KKM. 
+`,
+    ],
+  },
+  {
+    id: 'Semarakkan-HUT-RI-KKM-Kelompok-15-Pasang-Gapura-dan-Hiasan-Merah-Putih',
+    title: 'Semarakkan HUT RI, KKM Kelompok 15 Pasang Gapura dan Hiasan Merah Putih',
+    excerpt: 'Mahasiswa KKM Kelompok 15 Universitas Bina Bangsa memasang gapura dan hiasan merah putih di lingkungan Combong, Karet, dan Walikukun untuk menyemarakkan HUT RI.',
+    category: 'kabar-desa',
+    image: 'images/kkm26.jpg',
+    group: 'Kelompok 15',
+    village: 'Lingkungan Combong, Karet, dan Walikukun',
+    date: '9 Agustus 2026',
+    readTime: '4 menit baca',
+    content: [
+      `Masih pada tanggal 09 Agustus 2026, rangkaian kegiatan dilanjutkan dengan persiapan dan pengecatan gapura untuk menyambut perayaan HUT Kemerdekaan Republik Indonesia. Proses pengerjaan dilakukan secara gotong royong dengan membersihkan permukaan gapura dan melakukan pengecatan secara bertahap agar tampilannya lebih menarik.
+Setelah proses pengecatan selesai, anggota KKM bersama warga melakukan pemasangan gapura di salah satu gang di Kampung Combong. Gapura tersebut dipasang dengan memperhatikan aspek keamanan dan posisi agar berfungsi sebagai penanda serta memberikan suasana penyambutan bagi warga yang melintas. 
+Selain gapura, mahasiswa dan warga juga memasang hiasan bola-bola berwarna merah putih di beberapa titik strategis lingkungan. Pemasangan dekorasi ini dilakukan secara terorganisir untuk memeriahkan suasana menyambut peringatan Hari Kemerdekaan ke-81 Republik Indonesia. 
+Seluruh dekorasi ini berhasil meningkatkan semangat kebersamaan serta gotong royong di tengah masyarakat. Kegiatan diakhiri dengan pengecekan ulang kerapian atribut dan pembersihan peralatan sebagai tanda selesainya program kerja hari itu.`,
     ],
   },
 ];
